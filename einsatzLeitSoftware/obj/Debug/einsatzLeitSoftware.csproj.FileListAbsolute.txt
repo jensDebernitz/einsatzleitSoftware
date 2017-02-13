@@ -1,0 +1,14 @@
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\einsatzLeitSoftware.exe.config
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\einsatzLeitSoftware.exe
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\einsatzLeitSoftware.pdb
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.csprojResolveAssemblyReference.cache
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.Properties.Resources.resources
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.csproj.GenerateResource.Cache
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.exe
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.pdb
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\MaterialSkin.dll
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\MaterialSkin.pdb
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\ffwDB.mdf
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\ffwDB_log.ldf
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.beginDialog.resources
+c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.MainForm.resources
