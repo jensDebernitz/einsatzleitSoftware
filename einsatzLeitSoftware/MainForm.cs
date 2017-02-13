@@ -21,6 +21,7 @@ namespace einsatzLeitSoftware
 
         Timer mClockTimer = new Timer();
         CultureInfo mCulture = new CultureInfo("de-DE");
+        DateTime mStartTime;
         public MainForm()
         {
             InitializeComponent();
@@ -31,6 +32,9 @@ namespace einsatzLeitSoftware
             {
                 mLabelValueEinsatzOrt.Text = startDialog.getEinsatzLocation();
                 mLabelValueEinsatzStart.Text = startDialog.getStartDateTime();
+                mLabelValueProtocolLeader.Text = startDialog.getProtocolLeader();
+                mLabelValueEinsatzLeader.Text = startDialog.getEinsatzLeader();
+                mStartTime = DateTime.Now;
             }
 
         }
@@ -47,6 +51,13 @@ namespace einsatzLeitSoftware
         {
             DateTime localDateTime = DateTime.Now;
             mLabelClock.Text = localDateTime.ToString(mCulture);
+
+            //Calculate the different from start time to now time and show it in a label
+            TimeSpan diff = localDateTime - mStartTime;
+            int diffHours = diff.Hours;
+            int diffMinutes = diff.Minutes;
+            int diffSeconds = diff.Seconds;
+            mLabelEinsatzdauer.Text = diffHours.ToString() + ":" + diffMinutes.ToString() + ":" + diffSeconds.ToString();
         }
     }
 }
