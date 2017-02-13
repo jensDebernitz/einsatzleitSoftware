@@ -22,6 +22,8 @@ namespace einsatzLeitSoftware
         Timer mClockTimer = new Timer();
         CultureInfo mCulture = new CultureInfo("de-DE");
         DateTime mStartTime;
+        bool mBeginTypingNewMessage;
+
         public MainForm()
         {
             InitializeComponent();
@@ -36,7 +38,22 @@ namespace einsatzLeitSoftware
                 mLabelValueEinsatzLeader.Text = startDialog.getEinsatzLeader();
                 mStartTime = DateTime.Now;
             }
+            mBeginTypingNewMessage = false;
 
+            initListView();
+
+        }
+
+        private void initListView()
+        {
+            materialListView1.Sorting = SortOrder.None;
+            materialListView1.View = View.Details;
+
+            //materialListView1.Columns.Add(new ColumnHeader());
+            //materialListView1.Columns[0].Text = "ID";
+            //materialListView1.Columns[0].Width = 20;
+
+            SuspendLayout();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -58,6 +75,50 @@ namespace einsatzLeitSoftware
             int diffMinutes = diff.Minutes;
             int diffSeconds = diff.Seconds;
             mLabelEinsatzdauer.Text = diffHours.ToString() + ":" + diffMinutes.ToString() + ":" + diffSeconds.ToString();
+
+            if(mBeginTypingNewMessage == false)
+            {
+                mTextFieldTime.Text = localDateTime.ToShortTimeString();
+                mTextFieldDate.Text = localDateTime.ToShortDateString();
+                mTextFieldTimer.Text = mLabelEinsatzdauer.Text;
+            }
+        }
+
+        /*!
+         * @brief fill list function
+         * 
+         * @param MaterialListView list
+         * @param string[][] data
+         */
+        private void fillList(ref MaterialListView list, string[][] data)
+        {
+
+            foreach (string[] version in data)
+            {
+                var item = new ListViewItem(version);
+                list.Items.Add(item);
+            }
+
+        }
+
+        private void mButtonSave_Click(object sender, EventArgs e)
+        {
+            var get1 = new[]
+            {
+                  new []{ mTextFieldID.Text , mTextFieldDate.Text, mTextFieldTime.Text, mTextFieldTimer.Text, mTextFieldFunkFrom.Text, mTextFieldFunkTo.Text, mTextFieldMessage.Text, mTextFieldPrio.Text}
+            };
+
+            fillList(ref materialListView1, get1);
+            mBeginTypingNewMessage = false;
+
+            int id = Convert.ToInt32(mTextFieldID.Text);
+            id++;
+            mTextFieldID.Text = id.ToString();
+        }
+
+        private void mTextField_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            mBeginTypingNewMessage = true;
         }
     }
 }
