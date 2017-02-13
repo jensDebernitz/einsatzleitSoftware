@@ -120,5 +120,45 @@ namespace einsatzLeitSoftware
         {
             mBeginTypingNewMessage = true;
         }
+
+        private void mButtonSearchButton_Click(object sender, EventArgs e)
+        {
+            string street = mTextFieldStreet.Text;
+            string city = mTextFieldCity.Text;
+            string state = mTextFieldState.Text;
+            string zip = mTextFieldZip.Text;
+
+            try
+            {
+                StringBuilder queryAddress = new StringBuilder();
+                queryAddress.Append("http://maps.google.com/maps?q=");
+
+                if(street != string.Empty)
+                {
+                    queryAddress.Append(street + ", +");
+                }
+
+                if (city != string.Empty)
+                {
+                    queryAddress.Append(city + ", +");
+                }
+
+                if (state != string.Empty)
+                {
+                    queryAddress.Append(state + ", +");
+                }
+
+                if (zip != string.Empty)
+                {
+                    queryAddress.Append(zip + ", +");
+                }
+
+                webBrowser1.Navigate(queryAddress.ToString());
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(), "Error");
+            }
+        }
     }
 }

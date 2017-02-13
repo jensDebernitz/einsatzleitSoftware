@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("");
             this.ffwDBDataSet = new einsatzLeitSoftware.ffwDBDataSet();
             this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tableTableAdapter = new einsatzLeitSoftware.ffwDBDataSetTableAdapters.TableTableAdapter();
             this.tableAdapterManager = new einsatzLeitSoftware.ffwDBDataSetTableAdapters.TableAdapterManager();
-            this.mTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.mTabControlMaps = new MaterialSkin.Controls.MaterialTabControl();
             this.mTabPageFunkProtocol = new System.Windows.Forms.TabPage();
             this.mButtonSave = new MaterialSkin.Controls.MaterialFlatButton();
             this.mTextFieldPrio = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -67,10 +67,28 @@
             this.mColumnHeaderText = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mColumnHeaderPrio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.materialListView1 = new MaterialSkin.Controls.MaterialListView();
+            this.mTabPageMaps = new System.Windows.Forms.TabPage();
+            this.mTabPageExport = new System.Windows.Forms.TabPage();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.mTextFieldStreet = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.mTextFieldCity = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.mTextFieldState = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.mTextFieldZip = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.mButtonSearchButton = new MaterialSkin.Controls.MaterialFlatButton();
             ((System.ComponentModel.ISupportInitialize)(this.ffwDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
-            this.mTabControl1.SuspendLayout();
+            this.mTabControlMaps.SuspendLayout();
             this.mTabPageFunkProtocol.SuspendLayout();
+            this.mTabPageMaps.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ffwDBDataSet
@@ -93,17 +111,19 @@
             this.tableAdapterManager.TableTableAdapter = this.tableTableAdapter;
             this.tableAdapterManager.UpdateOrder = einsatzLeitSoftware.ffwDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // mTabControl1
+            // mTabControlMaps
             // 
-            this.mTabControl1.Controls.Add(this.mTabPageFunkProtocol);
-            this.mTabControl1.Controls.Add(this.mTabPageAtemSchutzUeberwachung);
-            this.mTabControl1.Depth = 0;
-            this.mTabControl1.Location = new System.Drawing.Point(12, 250);
-            this.mTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mTabControl1.Name = "mTabControl1";
-            this.mTabControl1.SelectedIndex = 0;
-            this.mTabControl1.Size = new System.Drawing.Size(1277, 385);
-            this.mTabControl1.TabIndex = 0;
+            this.mTabControlMaps.Controls.Add(this.mTabPageFunkProtocol);
+            this.mTabControlMaps.Controls.Add(this.mTabPageAtemSchutzUeberwachung);
+            this.mTabControlMaps.Controls.Add(this.mTabPageMaps);
+            this.mTabControlMaps.Controls.Add(this.mTabPageExport);
+            this.mTabControlMaps.Depth = 0;
+            this.mTabControlMaps.Location = new System.Drawing.Point(12, 250);
+            this.mTabControlMaps.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mTabControlMaps.Name = "mTabControlMaps";
+            this.mTabControlMaps.SelectedIndex = 0;
+            this.mTabControlMaps.Size = new System.Drawing.Size(1277, 385);
+            this.mTabControlMaps.TabIndex = 0;
             // 
             // mTabPageFunkProtocol
             // 
@@ -176,7 +196,6 @@
             this.mTextFieldMessage.Size = new System.Drawing.Size(619, 23);
             this.mTextFieldMessage.TabIndex = 7;
             this.mTextFieldMessage.TabStop = false;
-            this.mTextFieldMessage.Text = "???";
             this.mTextFieldMessage.UseSystemPasswordChar = false;
             this.mTextFieldMessage.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.mTextField_KeyPress);
             // 
@@ -299,14 +318,14 @@
             this.mTabPageAtemSchutzUeberwachung.Location = new System.Drawing.Point(4, 22);
             this.mTabPageAtemSchutzUeberwachung.Name = "mTabPageAtemSchutzUeberwachung";
             this.mTabPageAtemSchutzUeberwachung.Padding = new System.Windows.Forms.Padding(3);
-            this.mTabPageAtemSchutzUeberwachung.Size = new System.Drawing.Size(1032, 359);
+            this.mTabPageAtemSchutzUeberwachung.Size = new System.Drawing.Size(1269, 359);
             this.mTabPageAtemSchutzUeberwachung.TabIndex = 1;
             this.mTabPageAtemSchutzUeberwachung.Text = "Atemschutzüberwachung";
             this.mTabPageAtemSchutzUeberwachung.UseVisualStyleBackColor = true;
             // 
             // mTabSelector
             // 
-            this.mTabSelector.BaseTabControl = this.mTabControl1;
+            this.mTabSelector.BaseTabControl = this.mTabControlMaps;
             this.mTabSelector.Depth = 0;
             this.mTabSelector.Location = new System.Drawing.Point(12, 221);
             this.mTabSelector.MouseState = MaterialSkin.MouseState.HOVER;
@@ -515,7 +534,7 @@
             this.materialListView1.FullRowSelect = true;
             this.materialListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.materialListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem3});
             this.materialListView1.LabelEdit = true;
             this.materialListView1.Location = new System.Drawing.Point(6, 6);
             this.materialListView1.MouseLocation = new System.Drawing.Point(-1, -1);
@@ -526,6 +545,199 @@
             this.materialListView1.TabIndex = 0;
             this.materialListView1.UseCompatibleStateImageBehavior = false;
             this.materialListView1.View = System.Windows.Forms.View.List;
+            // 
+            // mTabPageMaps
+            // 
+            this.mTabPageMaps.Controls.Add(this.splitContainer1);
+            this.mTabPageMaps.Location = new System.Drawing.Point(4, 22);
+            this.mTabPageMaps.Name = "mTabPageMaps";
+            this.mTabPageMaps.Padding = new System.Windows.Forms.Padding(3);
+            this.mTabPageMaps.Size = new System.Drawing.Size(1269, 359);
+            this.mTabPageMaps.TabIndex = 2;
+            this.mTabPageMaps.Text = "Maps";
+            this.mTabPageMaps.UseVisualStyleBackColor = true;
+            // 
+            // mTabPageExport
+            // 
+            this.mTabPageExport.Location = new System.Drawing.Point(4, 22);
+            this.mTabPageExport.Name = "mTabPageExport";
+            this.mTabPageExport.Padding = new System.Windows.Forms.Padding(3);
+            this.mTabPageExport.Size = new System.Drawing.Size(1269, 359);
+            this.mTabPageExport.TabIndex = 3;
+            this.mTabPageExport.Text = "Export";
+            this.mTabPageExport.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(3, 3);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.White;
+            this.splitContainer1.Panel1.Controls.Add(this.mButtonSearchButton);
+            this.splitContainer1.Panel1.Controls.Add(this.materialLabel5);
+            this.splitContainer1.Panel1.Controls.Add(this.materialLabel3);
+            this.splitContainer1.Panel1.Controls.Add(this.materialLabel2);
+            this.splitContainer1.Panel1.Controls.Add(this.materialLabel1);
+            this.splitContainer1.Panel1.Controls.Add(this.mTextFieldZip);
+            this.splitContainer1.Panel1.Controls.Add(this.mTextFieldState);
+            this.splitContainer1.Panel1.Controls.Add(this.mTextFieldCity);
+            this.splitContainer1.Panel1.Controls.Add(this.mTextFieldStreet);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.webBrowser1);
+            this.splitContainer1.Size = new System.Drawing.Size(1263, 353);
+            this.splitContainer1.SplitterDistance = 421;
+            this.splitContainer1.TabIndex = 0;
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(838, 353);
+            this.webBrowser1.TabIndex = 0;
+            // 
+            // mTextFieldStreet
+            // 
+            this.mTextFieldStreet.Depth = 0;
+            this.mTextFieldStreet.Hint = "";
+            this.mTextFieldStreet.Location = new System.Drawing.Point(76, 17);
+            this.mTextFieldStreet.MaxLength = 32767;
+            this.mTextFieldStreet.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mTextFieldStreet.Name = "mTextFieldStreet";
+            this.mTextFieldStreet.PasswordChar = '\0';
+            this.mTextFieldStreet.SelectedText = "";
+            this.mTextFieldStreet.SelectionLength = 0;
+            this.mTextFieldStreet.SelectionStart = 0;
+            this.mTextFieldStreet.Size = new System.Drawing.Size(203, 23);
+            this.mTextFieldStreet.TabIndex = 0;
+            this.mTextFieldStreet.TabStop = false;
+            this.mTextFieldStreet.UseSystemPasswordChar = false;
+            // 
+            // mTextFieldCity
+            // 
+            this.mTextFieldCity.Depth = 0;
+            this.mTextFieldCity.Hint = "";
+            this.mTextFieldCity.Location = new System.Drawing.Point(76, 47);
+            this.mTextFieldCity.MaxLength = 32767;
+            this.mTextFieldCity.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mTextFieldCity.Name = "mTextFieldCity";
+            this.mTextFieldCity.PasswordChar = '\0';
+            this.mTextFieldCity.SelectedText = "";
+            this.mTextFieldCity.SelectionLength = 0;
+            this.mTextFieldCity.SelectionStart = 0;
+            this.mTextFieldCity.Size = new System.Drawing.Size(203, 23);
+            this.mTextFieldCity.TabIndex = 1;
+            this.mTextFieldCity.TabStop = false;
+            this.mTextFieldCity.UseSystemPasswordChar = false;
+            // 
+            // mTextFieldState
+            // 
+            this.mTextFieldState.Depth = 0;
+            this.mTextFieldState.Hint = "";
+            this.mTextFieldState.Location = new System.Drawing.Point(76, 77);
+            this.mTextFieldState.MaxLength = 32767;
+            this.mTextFieldState.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mTextFieldState.Name = "mTextFieldState";
+            this.mTextFieldState.PasswordChar = '\0';
+            this.mTextFieldState.SelectedText = "";
+            this.mTextFieldState.SelectionLength = 0;
+            this.mTextFieldState.SelectionStart = 0;
+            this.mTextFieldState.Size = new System.Drawing.Size(203, 23);
+            this.mTextFieldState.TabIndex = 2;
+            this.mTextFieldState.TabStop = false;
+            this.mTextFieldState.UseSystemPasswordChar = false;
+            // 
+            // mTextFieldZip
+            // 
+            this.mTextFieldZip.Depth = 0;
+            this.mTextFieldZip.Hint = "";
+            this.mTextFieldZip.Location = new System.Drawing.Point(76, 107);
+            this.mTextFieldZip.MaxLength = 32767;
+            this.mTextFieldZip.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mTextFieldZip.Name = "mTextFieldZip";
+            this.mTextFieldZip.PasswordChar = '\0';
+            this.mTextFieldZip.SelectedText = "";
+            this.mTextFieldZip.SelectionLength = 0;
+            this.mTextFieldZip.SelectionStart = 0;
+            this.mTextFieldZip.Size = new System.Drawing.Size(203, 23);
+            this.mTextFieldZip.TabIndex = 3;
+            this.mTextFieldZip.TabStop = false;
+            this.mTextFieldZip.UseSystemPasswordChar = false;
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.Location = new System.Drawing.Point(13, 21);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(60, 19);
+            this.materialLabel1.TabIndex = 4;
+            this.materialLabel1.Text = "Strasse";
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.Location = new System.Drawing.Point(13, 51);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(29, 19);
+            this.materialLabel2.TabIndex = 5;
+            this.materialLabel2.Text = "Ort";
+            // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.Location = new System.Drawing.Point(13, 81);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(44, 19);
+            this.materialLabel3.TabIndex = 6;
+            this.materialLabel3.Text = "State";
+            // 
+            // materialLabel5
+            // 
+            this.materialLabel5.AutoSize = true;
+            this.materialLabel5.Depth = 0;
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel5.Location = new System.Drawing.Point(13, 111);
+            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel5.Name = "materialLabel5";
+            this.materialLabel5.Size = new System.Drawing.Size(29, 19);
+            this.materialLabel5.TabIndex = 7;
+            this.materialLabel5.Text = "Plz";
+            // 
+            // mButtonSearchButton
+            // 
+            this.mButtonSearchButton.AutoSize = true;
+            this.mButtonSearchButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.mButtonSearchButton.Depth = 0;
+            this.mButtonSearchButton.Icon = null;
+            this.mButtonSearchButton.Location = new System.Drawing.Point(117, 157);
+            this.mButtonSearchButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.mButtonSearchButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mButtonSearchButton.Name = "mButtonSearchButton";
+            this.mButtonSearchButton.Primary = false;
+            this.mButtonSearchButton.Size = new System.Drawing.Size(74, 36);
+            this.mButtonSearchButton.TabIndex = 8;
+            this.mButtonSearchButton.Text = "suchen";
+            this.mButtonSearchButton.UseVisualStyleBackColor = true;
+            this.mButtonSearchButton.Click += new System.EventHandler(this.mButtonSearchButton_Click);
             // 
             // MainForm
             // 
@@ -544,15 +756,21 @@
             this.Controls.Add(this.mLabelEinsatzInformations);
             this.Controls.Add(this.mLabelClock);
             this.Controls.Add(this.mTabSelector);
-            this.Controls.Add(this.mTabControl1);
+            this.Controls.Add(this.mTabControlMaps);
             this.Name = "MainForm";
             this.Text = "Einsatzleitsoftware FFW Oberfell";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ffwDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
-            this.mTabControl1.ResumeLayout(false);
+            this.mTabControlMaps.ResumeLayout(false);
             this.mTabPageFunkProtocol.ResumeLayout(false);
             this.mTabPageFunkProtocol.PerformLayout();
+            this.mTabPageMaps.ResumeLayout(false);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -564,7 +782,7 @@
         private System.Windows.Forms.BindingSource tableBindingSource;
         private ffwDBDataSetTableAdapters.TableTableAdapter tableTableAdapter;
         private ffwDBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private MaterialSkin.Controls.MaterialTabControl mTabControl1;
+        private MaterialSkin.Controls.MaterialTabControl mTabControlMaps;
         private System.Windows.Forms.TabPage mTabPageFunkProtocol;
         private System.Windows.Forms.TabPage mTabPageAtemSchutzUeberwachung;
         private MaterialSkin.Controls.MaterialTabSelector mTabSelector;
@@ -597,6 +815,19 @@
         private System.Windows.Forms.ColumnHeader mColumnHeaderFunkTo;
         private System.Windows.Forms.ColumnHeader mColumnHeaderText;
         private System.Windows.Forms.ColumnHeader mColumnHeaderPrio;
+        private System.Windows.Forms.TabPage mTabPageMaps;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private MaterialSkin.Controls.MaterialSingleLineTextField mTextFieldZip;
+        private MaterialSkin.Controls.MaterialSingleLineTextField mTextFieldState;
+        private MaterialSkin.Controls.MaterialSingleLineTextField mTextFieldCity;
+        private MaterialSkin.Controls.MaterialSingleLineTextField mTextFieldStreet;
+        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.TabPage mTabPageExport;
+        private MaterialSkin.Controls.MaterialLabel materialLabel5;
+        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialFlatButton mButtonSearchButton;
     }
 }
 
