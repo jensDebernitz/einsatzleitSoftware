@@ -30,10 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("");
-            this.ffwDBDataSet = new einsatzLeitSoftware.ffwDBDataSet();
             this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tableTableAdapter = new einsatzLeitSoftware.ffwDBDataSetTableAdapters.TableTableAdapter();
-            this.tableAdapterManager = new einsatzLeitSoftware.ffwDBDataSetTableAdapters.TableAdapterManager();
             this.mTabControlMaps = new MaterialSkin.Controls.MaterialTabControl();
             this.mTabPageFunkProtocol = new System.Windows.Forms.TabPage();
             this.mButtonSave = new MaterialSkin.Controls.MaterialFlatButton();
@@ -80,7 +77,6 @@
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.mButtonSearchButton = new MaterialSkin.Controls.MaterialFlatButton();
-            ((System.ComponentModel.ISupportInitialize)(this.ffwDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
             this.mTabControlMaps.SuspendLayout();
             this.mTabPageFunkProtocol.SuspendLayout();
@@ -90,26 +86,6 @@
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // ffwDBDataSet
-            // 
-            this.ffwDBDataSet.DataSetName = "ffwDBDataSet";
-            this.ffwDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tableBindingSource
-            // 
-            this.tableBindingSource.DataMember = "Table";
-            this.tableBindingSource.DataSource = this.ffwDBDataSet;
-            // 
-            // tableTableAdapter
-            // 
-            this.tableTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.TableTableAdapter = this.tableTableAdapter;
-            this.tableAdapterManager.UpdateOrder = einsatzLeitSoftware.ffwDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // mTabControlMaps
             // 
@@ -760,7 +736,6 @@
             this.Name = "MainForm";
             this.Text = "Einsatzleitsoftware FFW Oberfell";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.ffwDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
             this.mTabControlMaps.ResumeLayout(false);
             this.mTabPageFunkProtocol.ResumeLayout(false);
@@ -777,11 +752,7 @@
         }
 
         #endregion
-
-        private ffwDBDataSet ffwDBDataSet;
         private System.Windows.Forms.BindingSource tableBindingSource;
-        private ffwDBDataSetTableAdapters.TableTableAdapter tableTableAdapter;
-        private ffwDBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private MaterialSkin.Controls.MaterialTabControl mTabControlMaps;
         private System.Windows.Forms.TabPage mTabPageFunkProtocol;
         private System.Windows.Forms.TabPage mTabPageAtemSchutzUeberwachung;

@@ -8,7 +8,10 @@ c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSof
 c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.pdb
 c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\MaterialSkin.dll
 c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\MaterialSkin.pdb
-c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\ffwDB.mdf
-c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\ffwDB_log.ldf
 c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.beginDialog.resources
 c:\users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.MainForm.resources
+C:\Users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\Interop.ADOX.dll
+C:\Users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.csproj.ResolveComReference.cache
+C:\Users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\obj\Debug\Interop.ADODB.dll
+C:\Users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\Interop.ADODB.dll
+C:\Users\jensaxel.debernitz\documents\visual studio 2013\Projects\einsatzLeitSoftware\einsatzLeitSoftware\bin\Debug\Interop.ADOX.dll

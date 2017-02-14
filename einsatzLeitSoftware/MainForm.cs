@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,10 +24,21 @@ namespace einsatzLeitSoftware
         CultureInfo mCulture = new CultureInfo("de-DE");
         DateTime mStartTime;
         bool mBeginTypingNewMessage;
+        dataBase mDataBase;
 
         public MainForm()
         {
             InitializeComponent();
+
+            //at the beginning it must check is the database availble
+            //when not must create a new one
+
+            mDataBase = new dataBase();
+
+            if(File.Exists(@"mainDataBase.mdb") == false)
+            {
+                mDataBase.createDataBases();
+            }
 
             beginDialog startDialog = new beginDialog();
 
@@ -43,6 +55,8 @@ namespace einsatzLeitSoftware
             initListView();
 
         }
+
+        
 
         private void initListView()
         {
