@@ -1,0 +1,7 @@
+C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\bin\Release\MaterialSkin.dll
+C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\bin\Release\MaterialSkin.pdb
+C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\obj\Release\MaterialSkin.csprojResolveAssemblyReference.cache
+C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\obj\Release\MaterialSkin.Properties.Resources.resources
+C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\obj\Release\MaterialSkin.csproj.GenerateResource.Cache
+C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\obj\Release\MaterialSkin.dll
+C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\obj\Release\MaterialSkin.pdb
