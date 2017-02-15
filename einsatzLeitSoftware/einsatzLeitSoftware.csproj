@@ -49,6 +49,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,11 +60,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="atemSchutzGeneralDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atemSchutzGeneralDialog.Designer.cs">
+      <DependentUpon>atemSchutzGeneralDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="beginDialog.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="beginDialog.Designer.cs">
       <DependentUpon>beginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="containerClassAtemschutz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="containerClassAtemschutz.Designer.cs">
+      <DependentUpon>containerClassAtemschutz.cs</DependentUpon>
     </Compile>
     <Compile Include="dataBase.cs" />
     <Compile Include="MainForm.cs">
@@ -74,8 +87,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="atemSchutzGeneralDialog.resx">
+      <DependentUpon>atemSchutzGeneralDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="beginDialog.resx">
       <DependentUpon>beginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="containerClassAtemschutz.resx">
+      <DependentUpon>containerClassAtemschutz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.aa.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

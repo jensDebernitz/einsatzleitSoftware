@@ -35,3 +35,5 @@ C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\einsatzLeitSoft
 C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.MainForm.aa.resources
 C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.csproj.GenerateResource.Cache
 C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\einsatzLeitSoftware\obj\Debug\aa\einsatzLeitSoftware.resources.dll
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.containerClassAtemschutz.resources
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.atemSchutzGeneralDialog.resources

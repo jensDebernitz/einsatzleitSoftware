@@ -132,6 +132,9 @@
   <data name="mButtonSearchButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
+  <data name="mButtonSearchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="mButtonSearchButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>117, 157</value>
   </data>
@@ -165,6 +168,9 @@
   <data name="materialLabel5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="materialLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 111</value>
   </data>
@@ -194,6 +200,9 @@
   </data>
   <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="materialLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 81</value>
@@ -225,6 +234,9 @@
   <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="materialLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 51</value>
   </data>
@@ -254,6 +266,9 @@
   </data>
   <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="materialLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 21</value>
@@ -435,371 +450,14 @@
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="tableBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>144, 17</value>
-  </metadata>
-  <data name="&gt;&gt;mButtonSave.Name" xml:space="preserve">
-    <value>mButtonSave</value>
-  </data>
-  <data name="&gt;&gt;mButtonSave.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mButtonSave.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mButtonSave.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldPrio.Name" xml:space="preserve">
-    <value>mTextFieldPrio</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldPrio.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldPrio.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldPrio.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldMessage.Name" xml:space="preserve">
-    <value>mTextFieldMessage</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldMessage.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldMessage.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldMessage.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldFunkTo.Name" xml:space="preserve">
-    <value>mTextFieldFunkTo</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldFunkTo.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldFunkTo.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldFunkTo.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldFunkFrom.Name" xml:space="preserve">
-    <value>mTextFieldFunkFrom</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldFunkFrom.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldFunkFrom.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldFunkFrom.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldTimer.Name" xml:space="preserve">
-    <value>mTextFieldTimer</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldTimer.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldTimer.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldTimer.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldTime.Name" xml:space="preserve">
-    <value>mTextFieldTime</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldTime.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldTime.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldTime.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldDate.Name" xml:space="preserve">
-    <value>mTextFieldDate</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldDate.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldDate.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldDate.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldID.Name" xml:space="preserve">
-    <value>mTextFieldID</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldID.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldID.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTextFieldID.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;materialListView1.Name" xml:space="preserve">
-    <value>materialListView1</value>
-  </data>
-  <data name="&gt;&gt;materialListView1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialListView, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialListView1.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;materialListView1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="mTabPageFunkProtocol.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="mTabPageFunkProtocol.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="mTabPageFunkProtocol.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1700, 576</value>
-  </data>
-  <data name="mTabPageFunkProtocol.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="mTabPageFunkProtocol.Text" xml:space="preserve">
-    <value>Funkprotokoll</value>
-  </data>
-  <data name="&gt;&gt;mTabPageFunkProtocol.Name" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;mTabPageFunkProtocol.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mTabPageFunkProtocol.Parent" xml:space="preserve">
-    <value>mTabControlMaps</value>
-  </data>
-  <data name="&gt;&gt;mTabPageFunkProtocol.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mButtonNewTabPage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mButtonNewTabPage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="mButtonNewTabPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="mButtonNewTabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 531</value>
-  </data>
-  <data name="mButtonNewTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
-  </data>
-  <data name="mButtonNewTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 36</value>
-  </data>
-  <data name="mButtonNewTabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="mButtonNewTabPage.Text" xml:space="preserve">
-    <value>Neue Atemschutzüberwachung hinzufügen</value>
-  </data>
-  <data name="&gt;&gt;mButtonNewTabPage.Name" xml:space="preserve">
-    <value>mButtonNewTabPage</value>
-  </data>
-  <data name="&gt;&gt;mButtonNewTabPage.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mButtonNewTabPage.Parent" xml:space="preserve">
-    <value>mTabPageAtemSchutzUeberwachung</value>
-  </data>
-  <data name="&gt;&gt;mButtonNewTabPage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabPageAtemschutz1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tabPageAtemschutz1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPageAtemschutz1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1679, 378</value>
-  </data>
-  <data name="tabPageAtemschutz1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabPageAtemschutz1.Text" xml:space="preserve">
-    <value>Überwachung 1</value>
-  </data>
-  <data name="&gt;&gt;tabPageAtemschutz1.Name" xml:space="preserve">
-    <value>tabPageAtemschutz1</value>
-  </data>
-  <data name="&gt;&gt;tabPageAtemschutz1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageAtemschutz1.Parent" xml:space="preserve">
-    <value>mTabControlAtemSchutz</value>
-  </data>
-  <data name="&gt;&gt;tabPageAtemschutz1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mTabControlAtemSchutz.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 33</value>
-  </data>
-  <data name="mTabControlAtemSchutz.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1687, 404</value>
-  </data>
-  <data name="mTabControlAtemSchutz.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;mTabControlAtemSchutz.Name" xml:space="preserve">
-    <value>mTabControlAtemSchutz</value>
-  </data>
-  <data name="&gt;&gt;mTabControlAtemSchutz.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTabControlAtemSchutz.Parent" xml:space="preserve">
-    <value>mTabPageAtemSchutzUeberwachung</value>
-  </data>
-  <data name="&gt;&gt;mTabControlAtemSchutz.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="materialTabSelector1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
-  </data>
-  <data name="materialTabSelector1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1687, 23</value>
-  </data>
-  <data name="materialTabSelector1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="materialTabSelector1.Text" xml:space="preserve">
-    <value>materialTabSelector1</value>
-  </data>
-  <data name="&gt;&gt;materialTabSelector1.Name" xml:space="preserve">
-    <value>materialTabSelector1</value>
-  </data>
-  <data name="&gt;&gt;materialTabSelector1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabSelector, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTabSelector1.Parent" xml:space="preserve">
-    <value>mTabPageAtemSchutzUeberwachung</value>
-  </data>
-  <data name="&gt;&gt;materialTabSelector1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mTabPageAtemSchutzUeberwachung.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="mTabPageAtemSchutzUeberwachung.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="mTabPageAtemSchutzUeberwachung.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1700, 576</value>
-  </data>
-  <data name="mTabPageAtemSchutzUeberwachung.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="mTabPageAtemSchutzUeberwachung.Text" xml:space="preserve">
-    <value>Atemschutzüberwachung</value>
-  </data>
-  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Name" xml:space="preserve">
-    <value>mTabPageAtemSchutzUeberwachung</value>
-  </data>
-  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Parent" xml:space="preserve">
-    <value>mTabControlMaps</value>
-  </data>
-  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mTabPageMaps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="mTabPageMaps.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="mTabPageMaps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1700, 576</value>
-  </data>
-  <data name="mTabPageMaps.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="mTabPageMaps.Text" xml:space="preserve">
-    <value>Maps</value>
-  </data>
-  <data name="&gt;&gt;mTabPageMaps.Name" xml:space="preserve">
-    <value>mTabPageMaps</value>
-  </data>
-  <data name="&gt;&gt;mTabPageMaps.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mTabPageMaps.Parent" xml:space="preserve">
-    <value>mTabControlMaps</value>
-  </data>
-  <data name="&gt;&gt;mTabPageMaps.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="mTabPageExport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="mTabPageExport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="mTabPageExport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1700, 576</value>
-  </data>
-  <data name="mTabPageExport.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="mTabPageExport.Text" xml:space="preserve">
-    <value>Export</value>
-  </data>
-  <data name="&gt;&gt;mTabPageExport.Name" xml:space="preserve">
-    <value>mTabPageExport</value>
-  </data>
-  <data name="&gt;&gt;mTabPageExport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mTabPageExport.Parent" xml:space="preserve">
-    <value>mTabControlMaps</value>
-  </data>
-  <data name="&gt;&gt;mTabPageExport.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="mTabControlMaps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 250</value>
-  </data>
-  <data name="mTabControlMaps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1708, 602</value>
-  </data>
-  <data name="mTabControlMaps.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;mTabControlMaps.Name" xml:space="preserve">
-    <value>mTabControlMaps</value>
-  </data>
-  <data name="&gt;&gt;mTabControlMaps.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;mTabControlMaps.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mTabControlMaps.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="mButtonSave.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="mButtonSave.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
+  </data>
+  <data name="mButtonSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mButtonSave.Location" type="System.Drawing.Point, System.Drawing">
     <value>1586, 523</value>
@@ -1029,47 +687,6 @@
   <data name="&gt;&gt;mTextFieldID.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="materialListView1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 32world</value>
-  </data>
-  <data name="materialListView1.Items" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
-        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
-        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
-        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
-        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
-        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAD/////Bfv///8UU3lz
-        dGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0ZQEAAAAJBwcDAAAA
-        CgAAAAAAAAAAGAABAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAATU3lzdGVtLkRyYXdp
-        bmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJhd2luZy5Gb250U3R5
-        bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAGUm9ib3RvAAAAQgX3
-        ////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtTeXN0
-        ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAAAAAAACw==
-</value>
-  </data>
-  <data name="materialListView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="materialListView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1573, 524</value>
-  </data>
-  <data name="materialListView1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;materialListView1.Name" xml:space="preserve">
-    <value>materialListView1</value>
-  </data>
-  <data name="&gt;&gt;materialListView1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialListView, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialListView1.Parent" xml:space="preserve">
-    <value>mTabPageFunkProtocol</value>
-  </data>
-  <data name="&gt;&gt;materialListView1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <data name="mColumnHeaderId.Text" xml:space="preserve">
     <value>Id</value>
   </data>
@@ -1124,6 +741,308 @@
   <data name="mColumnHeaderPrio.Width" type="System.Int32, mscorlib">
     <value>75</value>
   </data>
+  <data name="materialListView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 32world</value>
+  </data>
+  <data name="materialListView1.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAD/////Bfv///8UU3lz
+        dGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0ZQEAAAAJBwcDAAAA
+        CgAAAAAAAAAAGAABAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAATU3lzdGVtLkRyYXdp
+        bmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJhd2luZy5Gb250U3R5
+        bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAGUm9ib3RvAAAAQgX3
+        ////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtTeXN0
+        ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAAAAAAACw==
+</value>
+  </data>
+  <data name="materialListView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="materialListView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1573, 524</value>
+  </data>
+  <data name="materialListView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialListView1.Name" xml:space="preserve">
+    <value>materialListView1</value>
+  </data>
+  <data name="&gt;&gt;materialListView1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialListView, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialListView1.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;materialListView1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mTabPageFunkProtocol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="mTabPageFunkProtocol.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="mTabPageFunkProtocol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1700, 576</value>
+  </data>
+  <data name="mTabPageFunkProtocol.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mTabPageFunkProtocol.Text" xml:space="preserve">
+    <value>Funkprotokoll</value>
+  </data>
+  <data name="&gt;&gt;mTabPageFunkProtocol.Name" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTabPageFunkProtocol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mTabPageFunkProtocol.Parent" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageFunkProtocol.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="containerClassAtemschutz2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="containerClassAtemschutz2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="containerClassAtemschutz2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1080, 499</value>
+  </data>
+  <data name="containerClassAtemschutz2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz2.Name" xml:space="preserve">
+    <value>containerClassAtemschutz2</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz2.Type" xml:space="preserve">
+    <value>einsatzLeitSoftware.containerClassAtemschutz, einsatzLeitSoftware, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz2.Parent" xml:space="preserve">
+    <value>tabPageAtemschutz1</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageAtemschutz1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageAtemschutz1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageAtemschutz1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1679, 461</value>
+  </data>
+  <data name="tabPageAtemschutz1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageAtemschutz1.Text" xml:space="preserve">
+    <value>Überwachung 1</value>
+  </data>
+  <data name="&gt;&gt;tabPageAtemschutz1.Name" xml:space="preserve">
+    <value>tabPageAtemschutz1</value>
+  </data>
+  <data name="&gt;&gt;tabPageAtemschutz1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageAtemschutz1.Parent" xml:space="preserve">
+    <value>mTabControlAtemSchutz</value>
+  </data>
+  <data name="&gt;&gt;tabPageAtemschutz1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mTabControlAtemSchutz.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 35</value>
+  </data>
+  <data name="mTabControlAtemSchutz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1687, 487</value>
+  </data>
+  <data name="mTabControlAtemSchutz.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mTabControlAtemSchutz.Name" xml:space="preserve">
+    <value>mTabControlAtemSchutz</value>
+  </data>
+  <data name="&gt;&gt;mTabControlAtemSchutz.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTabControlAtemSchutz.Parent" xml:space="preserve">
+    <value>mTabPageAtemSchutzUeberwachung</value>
+  </data>
+  <data name="&gt;&gt;mTabControlAtemSchutz.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialTabSelector1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="materialTabSelector1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1684, 23</value>
+  </data>
+  <data name="materialTabSelector1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="materialTabSelector1.Text" xml:space="preserve">
+    <value>materialTabSelector1</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Name" xml:space="preserve">
+    <value>materialTabSelector1</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabSelector, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Parent" xml:space="preserve">
+    <value>mTabPageAtemSchutzUeberwachung</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mButtonNewTabPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mButtonNewTabPage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="mButtonNewTabPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mButtonNewTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 531</value>
+  </data>
+  <data name="mButtonNewTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="mButtonNewTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 36</value>
+  </data>
+  <data name="mButtonNewTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="mButtonNewTabPage.Text" xml:space="preserve">
+    <value>Neue Atemschutzüberwachung hinzufügen</value>
+  </data>
+  <data name="&gt;&gt;mButtonNewTabPage.Name" xml:space="preserve">
+    <value>mButtonNewTabPage</value>
+  </data>
+  <data name="&gt;&gt;mButtonNewTabPage.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mButtonNewTabPage.Parent" xml:space="preserve">
+    <value>mTabPageAtemSchutzUeberwachung</value>
+  </data>
+  <data name="&gt;&gt;mButtonNewTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1700, 576</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.Text" xml:space="preserve">
+    <value>Atemschutzüberwachung</value>
+  </data>
+  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Name" xml:space="preserve">
+    <value>mTabPageAtemSchutzUeberwachung</value>
+  </data>
+  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Parent" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTabPageMaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="mTabPageMaps.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="mTabPageMaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1700, 576</value>
+  </data>
+  <data name="mTabPageMaps.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mTabPageMaps.Text" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageMaps.Name" xml:space="preserve">
+    <value>mTabPageMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageMaps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mTabPageMaps.Parent" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageMaps.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTabPageExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="mTabPageExport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="mTabPageExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1700, 576</value>
+  </data>
+  <data name="mTabPageExport.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mTabPageExport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;mTabPageExport.Name" xml:space="preserve">
+    <value>mTabPageExport</value>
+  </data>
+  <data name="&gt;&gt;mTabPageExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mTabPageExport.Parent" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageExport.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mTabControlMaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 250</value>
+  </data>
+  <data name="mTabControlMaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 602</value>
+  </data>
+  <data name="mTabControlMaps.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mTabControlMaps.Name" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabControlMaps.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTabControlMaps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mTabControlMaps.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <data name="mTabSelector.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 221</value>
   </data>
@@ -1150,6 +1069,9 @@
   </data>
   <data name="mLabelClock.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="mLabelClock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mLabelClock.Location" type="System.Drawing.Point, System.Drawing">
     <value>838, 33</value>
@@ -1181,6 +1103,9 @@
   <data name="mLabelEinsatzInformations.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="mLabelEinsatzInformations.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="mLabelEinsatzInformations.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 71</value>
   </data>
@@ -1210,6 +1135,9 @@
   </data>
   <data name="mLabelTitleEinsatzOrt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="mLabelTitleEinsatzOrt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mLabelTitleEinsatzOrt.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 108</value>
@@ -1241,6 +1169,9 @@
   <data name="mLabelTitelEinsatzStart.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="mLabelTitelEinsatzStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="mLabelTitelEinsatzStart.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 131</value>
   </data>
@@ -1270,6 +1201,9 @@
   </data>
   <data name="mLabelValueEinsatzOrt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="mLabelValueEinsatzOrt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mLabelValueEinsatzOrt.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 108</value>
@@ -1301,6 +1235,9 @@
   <data name="mLabelValueEinsatzStart.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="mLabelValueEinsatzStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="mLabelValueEinsatzStart.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 131</value>
   </data>
@@ -1330,6 +1267,9 @@
   </data>
   <data name="mLabelValueProtocolLeader.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="mLabelValueProtocolLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mLabelValueProtocolLeader.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 155</value>
@@ -1361,6 +1301,9 @@
   <data name="mLabelProtocolLeader.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="mLabelProtocolLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="mLabelProtocolLeader.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 155</value>
   </data>
@@ -1390,6 +1333,9 @@
   </data>
   <data name="mLabelValueEinsatzLeader.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="mLabelValueEinsatzLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mLabelValueEinsatzLeader.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 182</value>
@@ -1421,6 +1367,9 @@
   <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="materialLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 182</value>
   </data>
@@ -1448,6 +1397,9 @@
   <data name="mLabelEinsatzdauer.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="mLabelEinsatzdauer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="mLabelEinsatzdauer.Location" type="System.Drawing.Point, System.Drawing">
     <value>755, 33</value>
   </data>
@@ -1472,6 +1424,27 @@
   <data name="&gt;&gt;mLabelEinsatzdauer.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="tableBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>144, 17</value>
+  </metadata>
+  <data name="containerClassAtemschutz1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="containerClassAtemschutz1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="containerClassAtemschutz1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1080, 499</value>
+  </data>
+  <data name="containerClassAtemschutz1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz1.Name" xml:space="preserve">
+    <value>containerClassAtemschutz1</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz1.Type" xml:space="preserve">
+    <value>einsatzLeitSoftware.containerClassAtemschutz, einsatzLeitSoftware, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1487,14 +1460,11 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1732, 864</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Einsatzleitsoftware FFW Oberfell</value>
-  </data>
-  <data name="&gt;&gt;tableBindingSource.Name" xml:space="preserve">
-    <value>tableBindingSource</value>
-  </data>
-  <data name="&gt;&gt;tableBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mColumnHeaderId.Name" xml:space="preserve">
     <value>mColumnHeaderId</value>
@@ -1543,6 +1513,12 @@
   </data>
   <data name="&gt;&gt;mColumnHeaderPrio.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableBindingSource.Name" xml:space="preserve">
+    <value>tableBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tableBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

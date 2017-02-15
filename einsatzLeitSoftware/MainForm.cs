@@ -174,7 +174,12 @@ namespace einsatzLeitSoftware
         {
             string title = "Überwachung " + (mTabControlAtemSchutz.TabCount + 1).ToString();
             TabPage myTabPage = new TabPage(title);
+            containerClassAtemschutz newContainer = new containerClassAtemschutz();
+            myTabPage.Controls.Add(newContainer);
+
             mTabControlAtemSchutz.TabPages.Add(myTabPage);
+
+
         }
     }
 }

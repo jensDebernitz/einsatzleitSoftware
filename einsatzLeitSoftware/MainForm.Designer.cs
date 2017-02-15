@@ -41,7 +41,6 @@
             this.mTextFieldCity = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.mTextFieldStreet = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.mTabControlMaps = new MaterialSkin.Controls.MaterialTabControl();
             this.mTabPageFunkProtocol = new System.Windows.Forms.TabPage();
             this.mButtonSave = new MaterialSkin.Controls.MaterialFlatButton();
@@ -63,6 +62,10 @@
             this.mColumnHeaderText = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mColumnHeaderPrio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mTabPageAtemSchutzUeberwachung = new System.Windows.Forms.TabPage();
+            this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.mTabControlAtemSchutz = new MaterialSkin.Controls.MaterialTabControl();
+            this.tabPageAtemschutz1 = new System.Windows.Forms.TabPage();
+            this.mButtonNewTabPage = new MaterialSkin.Controls.MaterialFlatButton();
             this.mTabPageMaps = new System.Windows.Forms.TabPage();
             this.mTabPageExport = new System.Windows.Forms.TabPage();
             this.mTabSelector = new MaterialSkin.Controls.MaterialTabSelector();
@@ -77,20 +80,20 @@
             this.mLabelValueEinsatzLeader = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelEinsatzdauer = new MaterialSkin.Controls.MaterialLabel();
-            this.mButtonNewTabPage = new MaterialSkin.Controls.MaterialFlatButton();
-            this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
-            this.mTabControlAtemSchutz = new MaterialSkin.Controls.MaterialTabControl();
-            this.tabPageAtemschutz1 = new System.Windows.Forms.TabPage();
+            this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.containerClassAtemschutz2 = new einsatzLeitSoftware.containerClassAtemschutz();
+            this.containerClassAtemschutz1 = new einsatzLeitSoftware.containerClassAtemschutz();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
             this.mTabControlMaps.SuspendLayout();
             this.mTabPageFunkProtocol.SuspendLayout();
             this.mTabPageAtemSchutzUeberwachung.SuspendLayout();
-            this.mTabPageMaps.SuspendLayout();
             this.mTabControlAtemSchutz.SuspendLayout();
+            this.tabPageAtemschutz1.SuspendLayout();
+            this.mTabPageMaps.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -447,11 +450,46 @@
             // mTabPageAtemSchutzUeberwachung
             // 
             this.mTabPageAtemSchutzUeberwachung.BackColor = System.Drawing.Color.White;
-            this.mTabPageAtemSchutzUeberwachung.Controls.Add(this.mButtonNewTabPage);
             this.mTabPageAtemSchutzUeberwachung.Controls.Add(this.materialTabSelector1);
+            this.mTabPageAtemSchutzUeberwachung.Controls.Add(this.mButtonNewTabPage);
             this.mTabPageAtemSchutzUeberwachung.Controls.Add(this.mTabControlAtemSchutz);
             resources.ApplyResources(this.mTabPageAtemSchutzUeberwachung, "mTabPageAtemSchutzUeberwachung");
             this.mTabPageAtemSchutzUeberwachung.Name = "mTabPageAtemSchutzUeberwachung";
+            // 
+            // materialTabSelector1
+            // 
+            this.materialTabSelector1.BaseTabControl = this.mTabControlAtemSchutz;
+            this.materialTabSelector1.Depth = 0;
+            resources.ApplyResources(this.materialTabSelector1, "materialTabSelector1");
+            this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialTabSelector1.Name = "materialTabSelector1";
+            // 
+            // mTabControlAtemSchutz
+            // 
+            this.mTabControlAtemSchutz.Controls.Add(this.tabPageAtemschutz1);
+            this.mTabControlAtemSchutz.Depth = 0;
+            resources.ApplyResources(this.mTabControlAtemSchutz, "mTabControlAtemSchutz");
+            this.mTabControlAtemSchutz.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mTabControlAtemSchutz.Name = "mTabControlAtemSchutz";
+            this.mTabControlAtemSchutz.SelectedIndex = 0;
+            // 
+            // tabPageAtemschutz1
+            // 
+            this.tabPageAtemschutz1.Controls.Add(this.containerClassAtemschutz2);
+            resources.ApplyResources(this.tabPageAtemschutz1, "tabPageAtemschutz1");
+            this.tabPageAtemschutz1.Name = "tabPageAtemschutz1";
+            this.tabPageAtemschutz1.UseVisualStyleBackColor = true;
+            // 
+            // mButtonNewTabPage
+            // 
+            resources.ApplyResources(this.mButtonNewTabPage, "mButtonNewTabPage");
+            this.mButtonNewTabPage.Depth = 0;
+            this.mButtonNewTabPage.Icon = null;
+            this.mButtonNewTabPage.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mButtonNewTabPage.Name = "mButtonNewTabPage";
+            this.mButtonNewTabPage.Primary = false;
+            this.mButtonNewTabPage.UseVisualStyleBackColor = true;
+            this.mButtonNewTabPage.Click += new System.EventHandler(this.mButtonNewTabPage_Click);
             // 
             // mTabPageMaps
             // 
@@ -562,39 +600,19 @@
             this.mLabelEinsatzdauer.MouseState = MaterialSkin.MouseState.HOVER;
             this.mLabelEinsatzdauer.Name = "mLabelEinsatzdauer";
             // 
-            // mButtonNewTabPage
+            // containerClassAtemschutz2
             // 
-            resources.ApplyResources(this.mButtonNewTabPage, "mButtonNewTabPage");
-            this.mButtonNewTabPage.Depth = 0;
-            this.mButtonNewTabPage.Icon = null;
-            this.mButtonNewTabPage.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mButtonNewTabPage.Name = "mButtonNewTabPage";
-            this.mButtonNewTabPage.Primary = false;
-            this.mButtonNewTabPage.UseVisualStyleBackColor = true;
-            this.mButtonNewTabPage.Click += new System.EventHandler(this.mButtonNewTabPage_Click);
+            this.containerClassAtemschutz2.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.containerClassAtemschutz2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.containerClassAtemschutz2, "containerClassAtemschutz2");
+            this.containerClassAtemschutz2.Name = "containerClassAtemschutz2";
             // 
-            // materialTabSelector1
+            // containerClassAtemschutz1
             // 
-            this.materialTabSelector1.BaseTabControl = this.mTabControlAtemSchutz;
-            this.materialTabSelector1.Depth = 0;
-            resources.ApplyResources(this.materialTabSelector1, "materialTabSelector1");
-            this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialTabSelector1.Name = "materialTabSelector1";
-            // 
-            // mTabControlAtemSchutz
-            // 
-            this.mTabControlAtemSchutz.Controls.Add(this.tabPageAtemschutz1);
-            this.mTabControlAtemSchutz.Depth = 0;
-            resources.ApplyResources(this.mTabControlAtemSchutz, "mTabControlAtemSchutz");
-            this.mTabControlAtemSchutz.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mTabControlAtemSchutz.Name = "mTabControlAtemSchutz";
-            this.mTabControlAtemSchutz.SelectedIndex = 0;
-            // 
-            // tabPageAtemschutz1
-            // 
-            resources.ApplyResources(this.tabPageAtemschutz1, "tabPageAtemschutz1");
-            this.tabPageAtemschutz1.Name = "tabPageAtemschutz1";
-            this.tabPageAtemschutz1.UseVisualStyleBackColor = true;
+            this.containerClassAtemschutz1.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.containerClassAtemschutz1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.containerClassAtemschutz1, "containerClassAtemschutz1");
+            this.containerClassAtemschutz1.Name = "containerClassAtemschutz1";
             // 
             // MainForm
             // 
@@ -622,14 +640,15 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
             this.mTabControlMaps.ResumeLayout(false);
             this.mTabPageFunkProtocol.ResumeLayout(false);
             this.mTabPageFunkProtocol.PerformLayout();
             this.mTabPageAtemSchutzUeberwachung.ResumeLayout(false);
             this.mTabPageAtemSchutzUeberwachung.PerformLayout();
-            this.mTabPageMaps.ResumeLayout(false);
             this.mTabControlAtemSchutz.ResumeLayout(false);
+            this.tabPageAtemschutz1.ResumeLayout(false);
+            this.mTabPageMaps.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -684,9 +703,11 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialFlatButton mButtonSearchButton;
         private MaterialSkin.Controls.MaterialFlatButton mButtonNewTabPage;
-        private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
         private MaterialSkin.Controls.MaterialTabControl mTabControlAtemSchutz;
+        private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
         private System.Windows.Forms.TabPage tabPageAtemschutz1;
+        private containerClassAtemschutz containerClassAtemschutz1;
+        private containerClassAtemschutz containerClassAtemschutz2;
     }
 }
 
