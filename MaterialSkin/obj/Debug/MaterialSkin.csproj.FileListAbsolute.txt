@@ -4,3 +4,10 @@ C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\Ma
 C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
 C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\obj\Debug\MaterialSkin.dll
 C:\Users\jensaxel.debernitz\Downloads\MaterialSkin-master\MaterialSkin-master\MaterialSkin\obj\Debug\MaterialSkin.pdb
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\bin\Debug\MaterialSkin.dll
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\bin\Debug\MaterialSkin.pdb
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\obj\Debug\MaterialSkin.csprojResolveAssemblyReference.cache
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\obj\Debug\MaterialSkin.dll
+C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\obj\Debug\MaterialSkin.pdb

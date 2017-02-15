@@ -62,11 +62,6 @@ namespace einsatzLeitSoftware
         {
             materialListView1.Sorting = SortOrder.None;
             materialListView1.View = View.Details;
-
-            //materialListView1.Columns.Add(new ColumnHeader());
-            //materialListView1.Columns[0].Text = "ID";
-            //materialListView1.Columns[0].Width = 20;
-
             SuspendLayout();
         }
 
@@ -173,6 +168,13 @@ namespace einsatzLeitSoftware
             {
                 MessageBox.Show(ex.Message.ToString(), "Error");
             }
+        }
+
+        private void mButtonNewTabPage_Click(object sender, EventArgs e)
+        {
+            string title = "Überwachung " + (mTabControlAtemSchutz.TabCount + 1).ToString();
+            TabPage myTabPage = new TabPage(title);
+            mTabControlAtemSchutz.TabPages.Add(myTabPage);
         }
     }
 }

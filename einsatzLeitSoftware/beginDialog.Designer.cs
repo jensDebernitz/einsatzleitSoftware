@@ -189,7 +189,7 @@
             this.Controls.Add(this.mLabelTitleEinsatzstart);
             this.Controls.Add(this.mLabelTitleEinsatzOrt);
             this.Name = "beginDialog";
-            this.Text = "beginDialog";
+            this.Text = "Bitte gebe die Grunddaten ein...";
             this.Load += new System.EventHandler(this.beginDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -77,6 +77,9 @@
     <EmbeddedResource Include="beginDialog.resx">
       <DependentUpon>beginDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.aa.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
