@@ -22,6 +22,7 @@ namespace einsatzLeitSoftware
         trup mSicherungsTruppFuehrer;
         trup mSicherungsTruppMann;
         DateTime mStartTime;
+        string mContainerName = "Atemschutz Überwachung 1";
 
         public containerClassAtemschutz()
         {
@@ -40,6 +41,11 @@ namespace einsatzLeitSoftware
 
             mSicherungsTruppMann.name = "";
             mSicherungsTruppMann.fillPressure = "300bar";
+        }
+
+        public void setContainerNumber(int number)
+        {
+            mContainerName = "Atemschutz Überwachung " + number.ToString();
         }
 
         private void mLabelValueBottleFielPressure_TextChanged(object sender, EventArgs e)
@@ -110,15 +116,12 @@ namespace einsatzLeitSoftware
         {
             DateTime localDateTime = DateTime.Now;
             //Calculate the different from start time to now time and show it in a label
-            TimeSpan diff = localDateTime - mStartTime;
-            int diffHours = diff.Hours;
-            int diffMinutes = diff.Minutes;
-            int diffSeconds = diff.Seconds;
-            materialLabel2.Text = diffHours.ToString() + ":" + diffMinutes.ToString() + ":" + diffSeconds.ToString();
+            Misc.timeHelper helper = new Misc.timeHelper();
+            materialLabel2.Text = helper.getDiffTime(mStartTime);
 
-            if(diffSeconds == 0 && (diffMinutes % 15) == 0 && diffMinutes != 0)
+            if(helper.is15MinutesAlarm(mStartTime))
             {
-                MessageBox.Show("Flaschenfülldruck Nachfragen");
+                MessageBox.Show("Flaschenfülldruck Nachfragen " + mContainerName);
             }
         }
     }

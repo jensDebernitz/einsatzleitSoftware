@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="debug.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="timeHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

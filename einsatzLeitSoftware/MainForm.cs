@@ -84,11 +84,8 @@ namespace einsatzLeitSoftware
             mLabelClock.Text = localDateTime.ToString(mCulture);
 
             //Calculate the different from start time to now time and show it in a label
-            TimeSpan diff = localDateTime - mStartTime;
-            int diffHours = diff.Hours;
-            int diffMinutes = diff.Minutes;
-            int diffSeconds = diff.Seconds;
-            mLabelEinsatzdauer.Text = diffHours.ToString() + ":" + diffMinutes.ToString() + ":" + diffSeconds.ToString();
+            timeHelper helper = new timeHelper();
+            mLabelEinsatzdauer.Text = helper.getDiffTime(mStartTime);
 
             if(mBeginTypingNewMessage == false)
             {
@@ -180,6 +177,7 @@ namespace einsatzLeitSoftware
             string title = "Überwachung " + (mTabControlAtemSchutz.TabCount + 1).ToString();
             TabPage myTabPage = new TabPage(title);
             containerClassAtemschutz newContainer = new containerClassAtemschutz();
+            newContainer.setContainerNumber(mTabControlAtemSchutz.TabCount + 1);
             myTabPage.Controls.Add(newContainer);
             mTabControlAtemSchutz.TabPages.Add(myTabPage);
         }
