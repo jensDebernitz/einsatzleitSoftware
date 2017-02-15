@@ -10,3 +10,10 @@ C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\ob
 C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
 C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\obj\Debug\MaterialSkin.dll
 C:\Users\jensaxel.debernitz\Downloads\einsatzleitSoftware-master\MaterialSkin\obj\Debug\MaterialSkin.pdb
+D:\Git\einsatzleitSoftware\MaterialSkin\bin\Debug\MaterialSkin.dll
+D:\Git\einsatzleitSoftware\MaterialSkin\bin\Debug\MaterialSkin.pdb
+D:\Git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.csprojResolveAssemblyReference.cache
+D:\Git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+D:\Git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
+D:\Git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.dll
+D:\Git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.pdb

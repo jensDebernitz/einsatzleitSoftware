@@ -13,6 +13,7 @@ using MaterialSkin;
 using MaterialSkin.Animations;
 using MaterialSkin.Controls;
 using MaterialSkin.Properties;
+using Misc;
 
 
 namespace einsatzLeitSoftware
@@ -25,6 +26,7 @@ namespace einsatzLeitSoftware
         DateTime mStartTime;
         bool mBeginTypingNewMessage;
         dataBase mDataBase;
+        debug mDebug;
 
         public MainForm()
         {
@@ -54,9 +56,12 @@ namespace einsatzLeitSoftware
 
             initListView();
 
-        }
+            mDebug = new debug();
+            mDebug.debugMaskSet(debug.DebugIds.DEBUG_MAINFORM);
 
-        
+            mDebug.dprintf("MainForm.cs", 62, debug.DebugIds.DEBUG_MAINFORM, "Init Finished"); 
+
+        }
 
         private void initListView()
         {
@@ -176,10 +181,7 @@ namespace einsatzLeitSoftware
             TabPage myTabPage = new TabPage(title);
             containerClassAtemschutz newContainer = new containerClassAtemschutz();
             myTabPage.Controls.Add(newContainer);
-
             mTabControlAtemSchutz.TabPages.Add(myTabPage);
-
-
         }
     }
 }

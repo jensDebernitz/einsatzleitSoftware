@@ -169,6 +169,10 @@
       <Project>{8eb7611b-68cd-4b8b-987a-11717e2b250c}</Project>
       <Name>MaterialSkin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Misc\Misc.csproj">
+      <Project>{590adab5-6de4-49e6-a3f5-685554c71f1b}</Project>
+      <Name>Misc</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
