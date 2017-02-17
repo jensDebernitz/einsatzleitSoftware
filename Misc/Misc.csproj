@@ -45,8 +45,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="debug.cs" />
+    <Compile Include="global.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="timeHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MaterialSkin\MaterialSkin.csproj">
+      <Project>{8eb7611b-68cd-4b8b-987a-11717e2b250c}</Project>
+      <Name>MaterialSkin</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

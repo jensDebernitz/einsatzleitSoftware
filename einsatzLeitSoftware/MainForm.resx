@@ -166,7 +166,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -175,7 +175,7 @@
     <value>13, 111</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 19</value>
+    <value>29, 18</value>
   </data>
   <data name="materialLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -199,7 +199,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -208,7 +208,7 @@
     <value>13, 81</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 19</value>
+    <value>42, 18</value>
   </data>
   <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -232,7 +232,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -241,7 +241,7 @@
     <value>13, 51</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 19</value>
+    <value>29, 18</value>
   </data>
   <data name="materialLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -265,7 +265,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -274,7 +274,7 @@
     <value>13, 21</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 19</value>
+    <value>59, 18</value>
   </data>
   <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -742,7 +742,7 @@
     <value>75</value>
   </data>
   <data name="materialListView1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 32world</value>
+    <value>Microsoft Sans Serif, 24pt</value>
   </data>
   <data name="materialListView1.Items" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -1068,7 +1068,7 @@
     <value>11</value>
   </data>
   <data name="mLabelClock.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelClock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1101,7 +1101,7 @@
     <value>True</value>
   </data>
   <data name="mLabelEinsatzInformations.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelEinsatzInformations.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1110,7 +1110,7 @@
     <value>12, 71</value>
   </data>
   <data name="mLabelEinsatzInformations.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 19</value>
+    <value>135, 18</value>
   </data>
   <data name="mLabelEinsatzInformations.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1134,7 +1134,7 @@
     <value>True</value>
   </data>
   <data name="mLabelTitleEinsatzOrt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelTitleEinsatzOrt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1143,7 +1143,7 @@
     <value>16, 108</value>
   </data>
   <data name="mLabelTitleEinsatzOrt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 19</value>
+    <value>83, 18</value>
   </data>
   <data name="mLabelTitleEinsatzOrt.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1167,7 +1167,7 @@
     <value>True</value>
   </data>
   <data name="mLabelTitelEinsatzStart.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelTitelEinsatzStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1176,7 +1176,7 @@
     <value>15, 131</value>
   </data>
   <data name="mLabelTitelEinsatzStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 19</value>
+    <value>90, 18</value>
   </data>
   <data name="mLabelTitelEinsatzStart.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1200,7 +1200,7 @@
     <value>True</value>
   </data>
   <data name="mLabelValueEinsatzOrt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelValueEinsatzOrt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1209,7 +1209,7 @@
     <value>145, 108</value>
   </data>
   <data name="mLabelValueEinsatzOrt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 19</value>
+    <value>32, 18</value>
   </data>
   <data name="mLabelValueEinsatzOrt.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1233,7 +1233,7 @@
     <value>True</value>
   </data>
   <data name="mLabelValueEinsatzStart.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelValueEinsatzStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1242,7 +1242,7 @@
     <value>145, 131</value>
   </data>
   <data name="mLabelValueEinsatzStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 19</value>
+    <value>120, 18</value>
   </data>
   <data name="mLabelValueEinsatzStart.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1266,7 +1266,7 @@
     <value>True</value>
   </data>
   <data name="mLabelValueProtocolLeader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelValueProtocolLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1275,7 +1275,7 @@
     <value>145, 155</value>
   </data>
   <data name="mLabelValueProtocolLeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 19</value>
+    <value>32, 18</value>
   </data>
   <data name="mLabelValueProtocolLeader.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1299,7 +1299,7 @@
     <value>True</value>
   </data>
   <data name="mLabelProtocolLeader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelProtocolLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1308,7 +1308,7 @@
     <value>16, 155</value>
   </data>
   <data name="mLabelProtocolLeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 19</value>
+    <value>114, 18</value>
   </data>
   <data name="mLabelProtocolLeader.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1332,7 +1332,7 @@
     <value>True</value>
   </data>
   <data name="mLabelValueEinsatzLeader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelValueEinsatzLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1341,7 +1341,7 @@
     <value>145, 182</value>
   </data>
   <data name="mLabelValueEinsatzLeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 19</value>
+    <value>32, 18</value>
   </data>
   <data name="mLabelValueEinsatzLeader.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1365,7 +1365,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1374,7 +1374,7 @@
     <value>16, 182</value>
   </data>
   <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 19</value>
+    <value>96, 18</value>
   </data>
   <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1395,7 +1395,7 @@
     <value>2</value>
   </data>
   <data name="mLabelEinsatzdauer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="mLabelEinsatzdauer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1424,9 +1424,6 @@
   <data name="&gt;&gt;mLabelEinsatzdauer.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="tableBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>144, 17</value>
-  </metadata>
   <data name="containerClassAtemschutz1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
@@ -1513,12 +1510,6 @@
   </data>
   <data name="&gt;&gt;mColumnHeaderPrio.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableBindingSource.Name" xml:space="preserve">
-    <value>tableBindingSource</value>
-  </data>
-  <data name="&gt;&gt;tableBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

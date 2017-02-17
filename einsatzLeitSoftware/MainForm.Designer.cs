@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.mButtonSearchButton = new MaterialSkin.Controls.MaterialFlatButton();
@@ -80,7 +79,6 @@
             this.mLabelValueEinsatzLeader = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelEinsatzdauer = new MaterialSkin.Controls.MaterialLabel();
-            this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.containerClassAtemschutz2 = new einsatzLeitSoftware.containerClassAtemschutz();
             this.containerClassAtemschutz1 = new einsatzLeitSoftware.containerClassAtemschutz();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -93,7 +91,6 @@
             this.mTabControlAtemSchutz.SuspendLayout();
             this.tabPageAtemschutz1.SuspendLayout();
             this.mTabPageMaps.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -483,12 +480,14 @@
             // mButtonNewTabPage
             // 
             resources.ApplyResources(this.mButtonNewTabPage, "mButtonNewTabPage");
+            this.mButtonNewTabPage.BackColor = System.Drawing.Color.Gray;
             this.mButtonNewTabPage.Depth = 0;
+            this.mButtonNewTabPage.ForeColor = System.Drawing.SystemColors.ControlText;
             this.mButtonNewTabPage.Icon = null;
             this.mButtonNewTabPage.MouseState = MaterialSkin.MouseState.HOVER;
             this.mButtonNewTabPage.Name = "mButtonNewTabPage";
             this.mButtonNewTabPage.Primary = false;
-            this.mButtonNewTabPage.UseVisualStyleBackColor = true;
+            this.mButtonNewTabPage.UseVisualStyleBackColor = false;
             this.mButtonNewTabPage.Click += new System.EventHandler(this.mButtonNewTabPage_Click);
             // 
             // mTabPageMaps
@@ -523,6 +522,7 @@
             // mLabelEinsatzInformations
             // 
             resources.ApplyResources(this.mLabelEinsatzInformations, "mLabelEinsatzInformations");
+            this.mLabelEinsatzInformations.BackColor = System.Drawing.Color.White;
             this.mLabelEinsatzInformations.Depth = 0;
             this.mLabelEinsatzInformations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelEinsatzInformations.MouseState = MaterialSkin.MouseState.HOVER;
@@ -531,6 +531,7 @@
             // mLabelTitleEinsatzOrt
             // 
             resources.ApplyResources(this.mLabelTitleEinsatzOrt, "mLabelTitleEinsatzOrt");
+            this.mLabelTitleEinsatzOrt.BackColor = System.Drawing.Color.White;
             this.mLabelTitleEinsatzOrt.Depth = 0;
             this.mLabelTitleEinsatzOrt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelTitleEinsatzOrt.MouseState = MaterialSkin.MouseState.HOVER;
@@ -539,6 +540,7 @@
             // mLabelTitelEinsatzStart
             // 
             resources.ApplyResources(this.mLabelTitelEinsatzStart, "mLabelTitelEinsatzStart");
+            this.mLabelTitelEinsatzStart.BackColor = System.Drawing.Color.White;
             this.mLabelTitelEinsatzStart.Depth = 0;
             this.mLabelTitelEinsatzStart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelTitelEinsatzStart.MouseState = MaterialSkin.MouseState.HOVER;
@@ -547,6 +549,7 @@
             // mLabelValueEinsatzOrt
             // 
             resources.ApplyResources(this.mLabelValueEinsatzOrt, "mLabelValueEinsatzOrt");
+            this.mLabelValueEinsatzOrt.BackColor = System.Drawing.Color.White;
             this.mLabelValueEinsatzOrt.Depth = 0;
             this.mLabelValueEinsatzOrt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelValueEinsatzOrt.MouseState = MaterialSkin.MouseState.HOVER;
@@ -555,6 +558,7 @@
             // mLabelValueEinsatzStart
             // 
             resources.ApplyResources(this.mLabelValueEinsatzStart, "mLabelValueEinsatzStart");
+            this.mLabelValueEinsatzStart.BackColor = System.Drawing.Color.White;
             this.mLabelValueEinsatzStart.Depth = 0;
             this.mLabelValueEinsatzStart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelValueEinsatzStart.MouseState = MaterialSkin.MouseState.HOVER;
@@ -563,6 +567,7 @@
             // mLabelValueProtocolLeader
             // 
             resources.ApplyResources(this.mLabelValueProtocolLeader, "mLabelValueProtocolLeader");
+            this.mLabelValueProtocolLeader.BackColor = System.Drawing.Color.White;
             this.mLabelValueProtocolLeader.Depth = 0;
             this.mLabelValueProtocolLeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelValueProtocolLeader.MouseState = MaterialSkin.MouseState.HOVER;
@@ -571,6 +576,7 @@
             // mLabelProtocolLeader
             // 
             resources.ApplyResources(this.mLabelProtocolLeader, "mLabelProtocolLeader");
+            this.mLabelProtocolLeader.BackColor = System.Drawing.Color.White;
             this.mLabelProtocolLeader.Depth = 0;
             this.mLabelProtocolLeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelProtocolLeader.MouseState = MaterialSkin.MouseState.HOVER;
@@ -579,6 +585,7 @@
             // mLabelValueEinsatzLeader
             // 
             resources.ApplyResources(this.mLabelValueEinsatzLeader, "mLabelValueEinsatzLeader");
+            this.mLabelValueEinsatzLeader.BackColor = System.Drawing.Color.White;
             this.mLabelValueEinsatzLeader.Depth = 0;
             this.mLabelValueEinsatzLeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelValueEinsatzLeader.MouseState = MaterialSkin.MouseState.HOVER;
@@ -587,6 +594,7 @@
             // materialLabel4
             // 
             resources.ApplyResources(this.materialLabel4, "materialLabel4");
+            this.materialLabel4.BackColor = System.Drawing.Color.White;
             this.materialLabel4.Depth = 0;
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
@@ -648,14 +656,13 @@
             this.mTabControlAtemSchutz.ResumeLayout(false);
             this.tabPageAtemschutz1.ResumeLayout(false);
             this.mTabPageMaps.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.BindingSource tableBindingSource;
+
         private MaterialSkin.Controls.MaterialTabControl mTabControlMaps;
         private System.Windows.Forms.TabPage mTabPageFunkProtocol;
         private System.Windows.Forms.TabPage mTabPageAtemSchutzUeberwachung;

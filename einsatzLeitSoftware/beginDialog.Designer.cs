@@ -42,6 +42,7 @@
             // mLabelTitleEinsatzOrt
             // 
             this.mLabelTitleEinsatzOrt.AutoSize = true;
+            this.mLabelTitleEinsatzOrt.BackColor = System.Drawing.Color.White;
             this.mLabelTitleEinsatzOrt.Depth = 0;
             this.mLabelTitleEinsatzOrt.Font = new System.Drawing.Font("Roboto", 11F);
             this.mLabelTitleEinsatzOrt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -55,6 +56,7 @@
             // mLabelTitleEinsatzstart
             // 
             this.mLabelTitleEinsatzstart.AutoSize = true;
+            this.mLabelTitleEinsatzstart.BackColor = System.Drawing.Color.White;
             this.mLabelTitleEinsatzstart.Depth = 0;
             this.mLabelTitleEinsatzstart.Font = new System.Drawing.Font("Roboto", 11F);
             this.mLabelTitleEinsatzstart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -115,6 +117,7 @@
             // mLabelProtokollLeader
             // 
             this.mLabelProtokollLeader.AutoSize = true;
+            this.mLabelProtokollLeader.BackColor = System.Drawing.Color.White;
             this.mLabelProtokollLeader.Depth = 0;
             this.mLabelProtokollLeader.Font = new System.Drawing.Font("Roboto", 11F);
             this.mLabelProtokollLeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -146,6 +149,7 @@
             // mLabelEinsatzLeader
             // 
             this.mLabelEinsatzLeader.AutoSize = true;
+            this.mLabelEinsatzLeader.BackColor = System.Drawing.Color.White;
             this.mLabelEinsatzLeader.Depth = 0;
             this.mLabelEinsatzLeader.Font = new System.Drawing.Font("Roboto", 11F);
             this.mLabelEinsatzLeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));

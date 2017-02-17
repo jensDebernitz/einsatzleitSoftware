@@ -30,13 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.mLabelValueBottleFielPressureSicherungsTruppMann = new MaterialSkin.Controls.MaterialLabel();
-            this.mLabelValueSicherungsTruppMann = new MaterialSkin.Controls.MaterialLabel();
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer = new MaterialSkin.Controls.MaterialLabel();
-            this.mLabelSicherungsTruppFuehrer = new MaterialSkin.Controls.MaterialLabel();
-            this.mLabelValueSicherungsTruppFuehrer = new MaterialSkin.Controls.MaterialLabel();
-            this.mLabelSicherungsTruppMann = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelValueBottleFielPressureTruppMann = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelValueBottleFielPressureTruppFuehrer = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
@@ -47,8 +40,21 @@
             this.mLabelValueTruppFuehrer = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelTruppMann = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelTruppfuehrer = new MaterialSkin.Controls.MaterialLabel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.mLabelValueBottleFielPressureSicherungsTruppMann = new MaterialSkin.Controls.MaterialLabel();
+            this.mLabelValueSicherungsTruppMann = new MaterialSkin.Controls.MaterialLabel();
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer = new MaterialSkin.Controls.MaterialLabel();
+            this.mLabelSicherungsTruppFuehrer = new MaterialSkin.Controls.MaterialLabel();
+            this.mLabelValueSicherungsTruppFuehrer = new MaterialSkin.Controls.MaterialLabel();
+            this.mLabelSicherungsTruppMann = new MaterialSkin.Controls.MaterialLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.materialListView1 = new MaterialSkin.Controls.MaterialListView();
+            this.columnHeaderID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.mColumnHeaderDatum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTime = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTimeCount = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderChange = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -73,102 +79,6 @@
             this.groupBox1.Text = "Atemschutz Trupp";
             this.groupBox1.UseCompatibleTextRendering = true;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.mLabelValueBottleFielPressureSicherungsTruppMann);
-            this.groupBox2.Controls.Add(this.mLabelValueSicherungsTruppMann);
-            this.groupBox2.Controls.Add(this.mLabelValueBottleFielPressureSicherungsTruppFuehrer);
-            this.groupBox2.Controls.Add(this.mLabelSicherungsTruppFuehrer);
-            this.groupBox2.Controls.Add(this.mLabelValueSicherungsTruppFuehrer);
-            this.groupBox2.Controls.Add(this.mLabelSicherungsTruppMann);
-            this.groupBox2.Location = new System.Drawing.Point(529, 4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(548, 100);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Sicherungs Trupp";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
-            // 
-            // mLabelValueBottleFielPressureSicherungsTruppMann
-            // 
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.AutoSize = true;
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.Depth = 0;
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.Font = new System.Drawing.Font("Roboto", 11F);
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.Location = new System.Drawing.Point(488, 39);
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.Name = "mLabelValueBottleFielPressureSicherungsTruppMann";
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.Size = new System.Drawing.Size(54, 19);
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.TabIndex = 11;
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.Text = "300bar";
-            this.mLabelValueBottleFielPressureSicherungsTruppMann.TextChanged += new System.EventHandler(this.mLabelValueBottleFielPressure_TextChanged);
-            // 
-            // mLabelValueSicherungsTruppMann
-            // 
-            this.mLabelValueSicherungsTruppMann.AutoSize = true;
-            this.mLabelValueSicherungsTruppMann.Depth = 0;
-            this.mLabelValueSicherungsTruppMann.Font = new System.Drawing.Font("Roboto", 11F);
-            this.mLabelValueSicherungsTruppMann.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.mLabelValueSicherungsTruppMann.Location = new System.Drawing.Point(102, 39);
-            this.mLabelValueSicherungsTruppMann.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mLabelValueSicherungsTruppMann.Name = "mLabelValueSicherungsTruppMann";
-            this.mLabelValueSicherungsTruppMann.Size = new System.Drawing.Size(30, 19);
-            this.mLabelValueSicherungsTruppMann.TabIndex = 7;
-            this.mLabelValueSicherungsTruppMann.Text = "???";
-            // 
-            // mLabelValueBottleFielPressureSicherungsTruppFuehrer
-            // 
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.AutoSize = true;
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Depth = 0;
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Font = new System.Drawing.Font("Roboto", 11F);
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Location = new System.Drawing.Point(488, 20);
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Name = "mLabelValueBottleFielPressureSicherungsTruppFuehrer";
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Size = new System.Drawing.Size(54, 19);
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.TabIndex = 10;
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Text = "300bar";
-            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.TextChanged += new System.EventHandler(this.mLabelValueBottleFielPressure_TextChanged);
-            // 
-            // mLabelSicherungsTruppFuehrer
-            // 
-            this.mLabelSicherungsTruppFuehrer.AutoSize = true;
-            this.mLabelSicherungsTruppFuehrer.Depth = 0;
-            this.mLabelSicherungsTruppFuehrer.Font = new System.Drawing.Font("Roboto", 11F);
-            this.mLabelSicherungsTruppFuehrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.mLabelSicherungsTruppFuehrer.Location = new System.Drawing.Point(6, 20);
-            this.mLabelSicherungsTruppFuehrer.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mLabelSicherungsTruppFuehrer.Name = "mLabelSicherungsTruppFuehrer";
-            this.mLabelSicherungsTruppFuehrer.Size = new System.Drawing.Size(90, 19);
-            this.mLabelSicherungsTruppFuehrer.TabIndex = 4;
-            this.mLabelSicherungsTruppFuehrer.Text = "Truppführer:";
-            // 
-            // mLabelValueSicherungsTruppFuehrer
-            // 
-            this.mLabelValueSicherungsTruppFuehrer.AutoSize = true;
-            this.mLabelValueSicherungsTruppFuehrer.Depth = 0;
-            this.mLabelValueSicherungsTruppFuehrer.Font = new System.Drawing.Font("Roboto", 11F);
-            this.mLabelValueSicherungsTruppFuehrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.mLabelValueSicherungsTruppFuehrer.Location = new System.Drawing.Point(102, 20);
-            this.mLabelValueSicherungsTruppFuehrer.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mLabelValueSicherungsTruppFuehrer.Name = "mLabelValueSicherungsTruppFuehrer";
-            this.mLabelValueSicherungsTruppFuehrer.Size = new System.Drawing.Size(30, 19);
-            this.mLabelValueSicherungsTruppFuehrer.TabIndex = 6;
-            this.mLabelValueSicherungsTruppFuehrer.Text = "???";
-            // 
-            // mLabelSicherungsTruppMann
-            // 
-            this.mLabelSicherungsTruppMann.AutoSize = true;
-            this.mLabelSicherungsTruppMann.Depth = 0;
-            this.mLabelSicherungsTruppMann.Font = new System.Drawing.Font("Roboto", 11F);
-            this.mLabelSicherungsTruppMann.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.mLabelSicherungsTruppMann.Location = new System.Drawing.Point(6, 39);
-            this.mLabelSicherungsTruppMann.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mLabelSicherungsTruppMann.Name = "mLabelSicherungsTruppMann";
-            this.mLabelSicherungsTruppMann.Size = new System.Drawing.Size(88, 19);
-            this.mLabelSicherungsTruppMann.TabIndex = 5;
-            this.mLabelSicherungsTruppMann.Text = "Truppmann:";
             // 
             // mLabelValueBottleFielPressureTruppMann
             // 
@@ -301,6 +211,102 @@
             this.mLabelTruppfuehrer.TabIndex = 0;
             this.mLabelTruppfuehrer.Text = "Truppführer:";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.mLabelValueBottleFielPressureSicherungsTruppMann);
+            this.groupBox2.Controls.Add(this.mLabelValueSicherungsTruppMann);
+            this.groupBox2.Controls.Add(this.mLabelValueBottleFielPressureSicherungsTruppFuehrer);
+            this.groupBox2.Controls.Add(this.mLabelSicherungsTruppFuehrer);
+            this.groupBox2.Controls.Add(this.mLabelValueSicherungsTruppFuehrer);
+            this.groupBox2.Controls.Add(this.mLabelSicherungsTruppMann);
+            this.groupBox2.Location = new System.Drawing.Point(529, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(548, 100);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Sicherungs Trupp";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // mLabelValueBottleFielPressureSicherungsTruppMann
+            // 
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.AutoSize = true;
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.Depth = 0;
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.Font = new System.Drawing.Font("Roboto", 11F);
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.Location = new System.Drawing.Point(488, 39);
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.Name = "mLabelValueBottleFielPressureSicherungsTruppMann";
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.Size = new System.Drawing.Size(54, 19);
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.TabIndex = 11;
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.Text = "300bar";
+            this.mLabelValueBottleFielPressureSicherungsTruppMann.TextChanged += new System.EventHandler(this.mLabelValueBottleFielPressure_TextChanged);
+            // 
+            // mLabelValueSicherungsTruppMann
+            // 
+            this.mLabelValueSicherungsTruppMann.AutoSize = true;
+            this.mLabelValueSicherungsTruppMann.Depth = 0;
+            this.mLabelValueSicherungsTruppMann.Font = new System.Drawing.Font("Roboto", 11F);
+            this.mLabelValueSicherungsTruppMann.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.mLabelValueSicherungsTruppMann.Location = new System.Drawing.Point(102, 39);
+            this.mLabelValueSicherungsTruppMann.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mLabelValueSicherungsTruppMann.Name = "mLabelValueSicherungsTruppMann";
+            this.mLabelValueSicherungsTruppMann.Size = new System.Drawing.Size(30, 19);
+            this.mLabelValueSicherungsTruppMann.TabIndex = 7;
+            this.mLabelValueSicherungsTruppMann.Text = "???";
+            // 
+            // mLabelValueBottleFielPressureSicherungsTruppFuehrer
+            // 
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.AutoSize = true;
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Depth = 0;
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Font = new System.Drawing.Font("Roboto", 11F);
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Location = new System.Drawing.Point(488, 20);
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Name = "mLabelValueBottleFielPressureSicherungsTruppFuehrer";
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Size = new System.Drawing.Size(54, 19);
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.TabIndex = 10;
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.Text = "300bar";
+            this.mLabelValueBottleFielPressureSicherungsTruppFuehrer.TextChanged += new System.EventHandler(this.mLabelValueBottleFielPressure_TextChanged);
+            // 
+            // mLabelSicherungsTruppFuehrer
+            // 
+            this.mLabelSicherungsTruppFuehrer.AutoSize = true;
+            this.mLabelSicherungsTruppFuehrer.Depth = 0;
+            this.mLabelSicherungsTruppFuehrer.Font = new System.Drawing.Font("Roboto", 11F);
+            this.mLabelSicherungsTruppFuehrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.mLabelSicherungsTruppFuehrer.Location = new System.Drawing.Point(6, 20);
+            this.mLabelSicherungsTruppFuehrer.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mLabelSicherungsTruppFuehrer.Name = "mLabelSicherungsTruppFuehrer";
+            this.mLabelSicherungsTruppFuehrer.Size = new System.Drawing.Size(90, 19);
+            this.mLabelSicherungsTruppFuehrer.TabIndex = 4;
+            this.mLabelSicherungsTruppFuehrer.Text = "Truppführer:";
+            // 
+            // mLabelValueSicherungsTruppFuehrer
+            // 
+            this.mLabelValueSicherungsTruppFuehrer.AutoSize = true;
+            this.mLabelValueSicherungsTruppFuehrer.Depth = 0;
+            this.mLabelValueSicherungsTruppFuehrer.Font = new System.Drawing.Font("Roboto", 11F);
+            this.mLabelValueSicherungsTruppFuehrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.mLabelValueSicherungsTruppFuehrer.Location = new System.Drawing.Point(102, 20);
+            this.mLabelValueSicherungsTruppFuehrer.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mLabelValueSicherungsTruppFuehrer.Name = "mLabelValueSicherungsTruppFuehrer";
+            this.mLabelValueSicherungsTruppFuehrer.Size = new System.Drawing.Size(30, 19);
+            this.mLabelValueSicherungsTruppFuehrer.TabIndex = 6;
+            this.mLabelValueSicherungsTruppFuehrer.Text = "???";
+            // 
+            // mLabelSicherungsTruppMann
+            // 
+            this.mLabelSicherungsTruppMann.AutoSize = true;
+            this.mLabelSicherungsTruppMann.Depth = 0;
+            this.mLabelSicherungsTruppMann.Font = new System.Drawing.Font("Roboto", 11F);
+            this.mLabelSicherungsTruppMann.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.mLabelSicherungsTruppMann.Location = new System.Drawing.Point(6, 39);
+            this.mLabelSicherungsTruppMann.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mLabelSicherungsTruppMann.Name = "mLabelSicherungsTruppMann";
+            this.mLabelSicherungsTruppMann.Size = new System.Drawing.Size(88, 19);
+            this.mLabelSicherungsTruppMann.TabIndex = 5;
+            this.mLabelSicherungsTruppMann.Text = "Truppmann:";
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkRed;
@@ -319,18 +325,66 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // materialListView1
+            // 
+            this.materialListView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeaderID,
+            this.mColumnHeaderDatum,
+            this.columnHeaderTime,
+            this.columnHeaderTimeCount,
+            this.columnHeaderChange});
+            this.materialListView1.Depth = 0;
+            this.materialListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.materialListView1.FullRowSelect = true;
+            this.materialListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.materialListView1.Location = new System.Drawing.Point(3, 145);
+            this.materialListView1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialListView1.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialListView1.Name = "materialListView1";
+            this.materialListView1.OwnerDraw = true;
+            this.materialListView1.Size = new System.Drawing.Size(1068, 262);
+            this.materialListView1.TabIndex = 13;
+            this.materialListView1.UseCompatibleStateImageBehavior = false;
+            this.materialListView1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeaderID
+            // 
+            this.columnHeaderID.Text = "ID";
+            // 
+            // mColumnHeaderDatum
+            // 
+            this.mColumnHeaderDatum.Text = "Datum";
+            this.mColumnHeaderDatum.Width = 120;
+            // 
+            // columnHeaderTime
+            // 
+            this.columnHeaderTime.Text = "Uhrzeit";
+            this.columnHeaderTime.Width = 130;
+            // 
+            // columnHeaderTimeCount
+            // 
+            this.columnHeaderTimeCount.Text = "Einsatzdauer";
+            this.columnHeaderTimeCount.Width = 200;
+            // 
+            // columnHeaderChange
+            // 
+            this.columnHeaderChange.Text = "Änderung";
+            this.columnHeaderChange.Width = 500;
+            // 
             // containerClassAtemschutz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.materialListView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.Name = "containerClassAtemschutz";
-            this.Size = new System.Drawing.Size(1234, 420);
+            this.Size = new System.Drawing.Size(1679, 461);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -361,5 +415,11 @@
         public System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
+        private MaterialSkin.Controls.MaterialListView materialListView1;
+        private System.Windows.Forms.ColumnHeader columnHeaderID;
+        private System.Windows.Forms.ColumnHeader mColumnHeaderDatum;
+        private System.Windows.Forms.ColumnHeader columnHeaderTime;
+        private System.Windows.Forms.ColumnHeader columnHeaderTimeCount;
+        private System.Windows.Forms.ColumnHeader columnHeaderChange;
     }
 }
