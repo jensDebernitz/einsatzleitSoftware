@@ -1,0 +1,8 @@
+C:\git\einsatzleitSoftware\MaterialSkin\bin\Debug\MaterialSkin.dll
+C:\git\einsatzleitSoftware\MaterialSkin\bin\Debug\MaterialSkin.pdb
+C:\git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+C:\git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
+C:\git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.dll
+C:\git\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.pdb
+C:\git\einsatzleitSoftware\MaterialSkin\bin\Debug\MaterialSkin.dll.CodeAnalysisLog.xml
+C:\git\einsatzleitSoftware\MaterialSkin\bin\Debug\MaterialSkin.dll.lastcodeanalysissucceeded

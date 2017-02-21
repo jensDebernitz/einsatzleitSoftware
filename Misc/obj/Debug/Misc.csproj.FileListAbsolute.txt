@@ -1,0 +1,7 @@
+C:\git\einsatzleitSoftware\Misc\bin\Debug\Misc.dll
+C:\git\einsatzleitSoftware\Misc\bin\Debug\Misc.pdb
+C:\git\einsatzleitSoftware\Misc\obj\Debug\Misc.csprojResolveAssemblyReference.cache
+C:\git\einsatzleitSoftware\Misc\obj\Debug\Misc.dll
+C:\git\einsatzleitSoftware\Misc\obj\Debug\Misc.pdb
+C:\git\einsatzleitSoftware\Misc\bin\Debug\Misc.dll.CodeAnalysisLog.xml
+C:\git\einsatzleitSoftware\Misc\bin\Debug\Misc.dll.lastcodeanalysissucceeded

@@ -1,0 +1,1520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mButtonSearchButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mButtonSearchButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="mButtonSearchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mButtonSearchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 157</value>
+  </data>
+  <data name="mButtonSearchButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="mButtonSearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="mButtonSearchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="mButtonSearchButton.Text" xml:space="preserve">
+    <value>suchen</value>
+  </data>
+  <data name="&gt;&gt;mButtonSearchButton.Name" xml:space="preserve">
+    <value>mButtonSearchButton</value>
+  </data>
+  <data name="&gt;&gt;mButtonSearchButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mButtonSearchButton.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;mButtonSearchButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="materialLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 111</value>
+  </data>
+  <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="materialLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialLabel5.Text" xml:space="preserve">
+    <value>Plz</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Name" xml:space="preserve">
+    <value>materialLabel5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="materialLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 81</value>
+  </data>
+  <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="materialLabel3.Text" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="materialLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 51</value>
+  </data>
+  <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="materialLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="materialLabel2.Text" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Name" xml:space="preserve">
+    <value>materialLabel2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="materialLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 21</value>
+  </data>
+  <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 18</value>
+  </data>
+  <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialLabel1.Text" xml:space="preserve">
+    <value>Strasse</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Name" xml:space="preserve">
+    <value>materialLabel1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mTextFieldZip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 107</value>
+  </data>
+  <data name="mTextFieldZip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 23</value>
+  </data>
+  <data name="mTextFieldZip.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldZip.Name" xml:space="preserve">
+    <value>mTextFieldZip</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldZip.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldZip.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldZip.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mTextFieldState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 77</value>
+  </data>
+  <data name="mTextFieldState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 23</value>
+  </data>
+  <data name="mTextFieldState.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldState.Name" xml:space="preserve">
+    <value>mTextFieldState</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldState.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldState.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldState.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mTextFieldCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 47</value>
+  </data>
+  <data name="mTextFieldCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 23</value>
+  </data>
+  <data name="mTextFieldCity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldCity.Name" xml:space="preserve">
+    <value>mTextFieldCity</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldCity.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldCity.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldCity.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mTextFieldStreet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="mTextFieldStreet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 23</value>
+  </data>
+  <data name="mTextFieldStreet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldStreet.Name" xml:space="preserve">
+    <value>mTextFieldStreet</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldStreet.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldStreet.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldStreet.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="webBrowser1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="webBrowser1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="webBrowser1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="webBrowser1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1126, 570</value>
+  </data>
+  <data name="webBrowser1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Name" xml:space="preserve">
+    <value>webBrowser1</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1694, 570</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>564</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>mTabPageMaps</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mButtonSave.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mButtonSave.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="mButtonSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mButtonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1586, 523</value>
+  </data>
+  <data name="mButtonSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="mButtonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 36</value>
+  </data>
+  <data name="mButtonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mButtonSave.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="&gt;&gt;mButtonSave.Name" xml:space="preserve">
+    <value>mButtonSave</value>
+  </data>
+  <data name="&gt;&gt;mButtonSave.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mButtonSave.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mButtonSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mTextFieldPrio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1490, 536</value>
+  </data>
+  <data name="mTextFieldPrio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 23</value>
+  </data>
+  <data name="mTextFieldPrio.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="mTextFieldPrio.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldPrio.Name" xml:space="preserve">
+    <value>mTextFieldPrio</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldPrio.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldPrio.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldPrio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTextFieldMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 536</value>
+  </data>
+  <data name="mTextFieldMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1010, 23</value>
+  </data>
+  <data name="mTextFieldMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldMessage.Name" xml:space="preserve">
+    <value>mTextFieldMessage</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldMessage.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldMessage.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldMessage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTextFieldFunkTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 536</value>
+  </data>
+  <data name="mTextFieldFunkTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="mTextFieldFunkTo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mTextFieldFunkTo.Text" xml:space="preserve">
+    <value>REMO 42</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldFunkTo.Name" xml:space="preserve">
+    <value>mTextFieldFunkTo</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldFunkTo.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldFunkTo.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldFunkTo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mTextFieldFunkFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 536</value>
+  </data>
+  <data name="mTextFieldFunkFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="mTextFieldFunkFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mTextFieldFunkFrom.Text" xml:space="preserve">
+    <value>REMO 90</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldFunkFrom.Name" xml:space="preserve">
+    <value>mTextFieldFunkFrom</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldFunkFrom.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldFunkFrom.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldFunkFrom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mTextFieldTimer.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mTextFieldTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 536</value>
+  </data>
+  <data name="mTextFieldTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="mTextFieldTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="mTextFieldTimer.Text" xml:space="preserve">
+    <value>12:12:00</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldTimer.Name" xml:space="preserve">
+    <value>mTextFieldTimer</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldTimer.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldTimer.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldTimer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mTextFieldTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mTextFieldTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 536</value>
+  </data>
+  <data name="mTextFieldTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 23</value>
+  </data>
+  <data name="mTextFieldTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mTextFieldTime.Text" xml:space="preserve">
+    <value>12:12</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldTime.Name" xml:space="preserve">
+    <value>mTextFieldTime</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldTime.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mTextFieldDate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mTextFieldDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 536</value>
+  </data>
+  <data name="mTextFieldDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="mTextFieldDate.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mTextFieldDate.Text" xml:space="preserve">
+    <value>12.02.2017</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldDate.Name" xml:space="preserve">
+    <value>mTextFieldDate</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldDate.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldDate.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mTextFieldID.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mTextFieldID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 536</value>
+  </data>
+  <data name="mTextFieldID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 23</value>
+  </data>
+  <data name="mTextFieldID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mTextFieldID.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldID.Name" xml:space="preserve">
+    <value>mTextFieldID</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldID.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldID.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTextFieldID.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mColumnHeaderId.Text" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="mColumnHeaderId.Width" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="mColumnHeaderDate.DisplayIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mColumnHeaderDate.Text" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="mColumnHeaderDate.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="mColumnHeaderTime.DisplayIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mColumnHeaderTime.Text" xml:space="preserve">
+    <value>Uhrzeit</value>
+  </data>
+  <data name="mColumnHeaderTime.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="mColumnHeaderTimer.Text" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+  <data name="mColumnHeaderTimer.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="mColumnHeaderFunkFrom.Text" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="mColumnHeaderFunkFrom.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="mColumnHeaderFunkTo.Text" xml:space="preserve">
+    <value>zu</value>
+  </data>
+  <data name="mColumnHeaderFunkTo.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="mColumnHeaderText.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="mColumnHeaderText.Width" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="mColumnHeaderPrio.Text" xml:space="preserve">
+    <value>Prio</value>
+  </data>
+  <data name="mColumnHeaderPrio.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="materialListView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt</value>
+  </data>
+  <data name="materialListView1.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAD/////Bfv///8UU3lz
+        dGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0ZQEAAAAJBwcDAAAA
+        CgAAAAAAAAAAGAABAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAATU3lzdGVtLkRyYXdp
+        bmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJhd2luZy5Gb250U3R5
+        bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAGUm9ib3RvAAAAQgX3
+        ////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtTeXN0
+        ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAAAAAAACw==
+</value>
+  </data>
+  <data name="materialListView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="materialListView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1573, 524</value>
+  </data>
+  <data name="materialListView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialListView1.Name" xml:space="preserve">
+    <value>materialListView1</value>
+  </data>
+  <data name="&gt;&gt;materialListView1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialListView, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialListView1.Parent" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;materialListView1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mTabPageFunkProtocol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="mTabPageFunkProtocol.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="mTabPageFunkProtocol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1700, 576</value>
+  </data>
+  <data name="mTabPageFunkProtocol.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mTabPageFunkProtocol.Text" xml:space="preserve">
+    <value>Funkprotokoll</value>
+  </data>
+  <data name="&gt;&gt;mTabPageFunkProtocol.Name" xml:space="preserve">
+    <value>mTabPageFunkProtocol</value>
+  </data>
+  <data name="&gt;&gt;mTabPageFunkProtocol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mTabPageFunkProtocol.Parent" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageFunkProtocol.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="containerClassAtemschutz2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="containerClassAtemschutz2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="containerClassAtemschutz2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1080, 499</value>
+  </data>
+  <data name="containerClassAtemschutz2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz2.Name" xml:space="preserve">
+    <value>containerClassAtemschutz2</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz2.Type" xml:space="preserve">
+    <value>einsatzLeitSoftware.containerClassAtemschutz, einsatzLeitSoftware, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz2.Parent" xml:space="preserve">
+    <value>tabPageAtemschutz1</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageAtemschutz1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageAtemschutz1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageAtemschutz1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1679, 461</value>
+  </data>
+  <data name="tabPageAtemschutz1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageAtemschutz1.Text" xml:space="preserve">
+    <value>Überwachung 1</value>
+  </data>
+  <data name="&gt;&gt;tabPageAtemschutz1.Name" xml:space="preserve">
+    <value>tabPageAtemschutz1</value>
+  </data>
+  <data name="&gt;&gt;tabPageAtemschutz1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageAtemschutz1.Parent" xml:space="preserve">
+    <value>mTabControlAtemSchutz</value>
+  </data>
+  <data name="&gt;&gt;tabPageAtemschutz1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mTabControlAtemSchutz.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 35</value>
+  </data>
+  <data name="mTabControlAtemSchutz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1687, 487</value>
+  </data>
+  <data name="mTabControlAtemSchutz.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mTabControlAtemSchutz.Name" xml:space="preserve">
+    <value>mTabControlAtemSchutz</value>
+  </data>
+  <data name="&gt;&gt;mTabControlAtemSchutz.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTabControlAtemSchutz.Parent" xml:space="preserve">
+    <value>mTabPageAtemSchutzUeberwachung</value>
+  </data>
+  <data name="&gt;&gt;mTabControlAtemSchutz.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialTabSelector1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="materialTabSelector1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1684, 23</value>
+  </data>
+  <data name="materialTabSelector1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="materialTabSelector1.Text" xml:space="preserve">
+    <value>materialTabSelector1</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Name" xml:space="preserve">
+    <value>materialTabSelector1</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabSelector, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Parent" xml:space="preserve">
+    <value>mTabPageAtemSchutzUeberwachung</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mButtonNewTabPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mButtonNewTabPage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="mButtonNewTabPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mButtonNewTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 531</value>
+  </data>
+  <data name="mButtonNewTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="mButtonNewTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 36</value>
+  </data>
+  <data name="mButtonNewTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="mButtonNewTabPage.Text" xml:space="preserve">
+    <value>Neue Atemschutzüberwachung hinzufügen</value>
+  </data>
+  <data name="&gt;&gt;mButtonNewTabPage.Name" xml:space="preserve">
+    <value>mButtonNewTabPage</value>
+  </data>
+  <data name="&gt;&gt;mButtonNewTabPage.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mButtonNewTabPage.Parent" xml:space="preserve">
+    <value>mTabPageAtemSchutzUeberwachung</value>
+  </data>
+  <data name="&gt;&gt;mButtonNewTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1700, 576</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mTabPageAtemSchutzUeberwachung.Text" xml:space="preserve">
+    <value>Atemschutzüberwachung</value>
+  </data>
+  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Name" xml:space="preserve">
+    <value>mTabPageAtemSchutzUeberwachung</value>
+  </data>
+  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.Parent" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageAtemSchutzUeberwachung.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTabPageMaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="mTabPageMaps.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="mTabPageMaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1700, 576</value>
+  </data>
+  <data name="mTabPageMaps.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mTabPageMaps.Text" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageMaps.Name" xml:space="preserve">
+    <value>mTabPageMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageMaps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mTabPageMaps.Parent" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageMaps.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTabPageExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="mTabPageExport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="mTabPageExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1700, 576</value>
+  </data>
+  <data name="mTabPageExport.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mTabPageExport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;mTabPageExport.Name" xml:space="preserve">
+    <value>mTabPageExport</value>
+  </data>
+  <data name="&gt;&gt;mTabPageExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mTabPageExport.Parent" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabPageExport.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mTabControlMaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 250</value>
+  </data>
+  <data name="mTabControlMaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 602</value>
+  </data>
+  <data name="mTabControlMaps.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mTabControlMaps.Name" xml:space="preserve">
+    <value>mTabControlMaps</value>
+  </data>
+  <data name="&gt;&gt;mTabControlMaps.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTabControlMaps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mTabControlMaps.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="mTabSelector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 221</value>
+  </data>
+  <data name="mTabSelector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1704, 23</value>
+  </data>
+  <data name="mTabSelector.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mTabSelector.Text" xml:space="preserve">
+    <value>materialTabSelector1</value>
+  </data>
+  <data name="&gt;&gt;mTabSelector.Name" xml:space="preserve">
+    <value>mTabSelector</value>
+  </data>
+  <data name="&gt;&gt;mTabSelector.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabSelector, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mTabSelector.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mTabSelector.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="mLabelClock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelClock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelClock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>838, 33</value>
+  </data>
+  <data name="mLabelClock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 26</value>
+  </data>
+  <data name="mLabelClock.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mLabelClock.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="&gt;&gt;mLabelClock.Name" xml:space="preserve">
+    <value>mLabelClock</value>
+  </data>
+  <data name="&gt;&gt;mLabelClock.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelClock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelClock.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="mLabelEinsatzInformations.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLabelEinsatzInformations.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelEinsatzInformations.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelEinsatzInformations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 71</value>
+  </data>
+  <data name="mLabelEinsatzInformations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 18</value>
+  </data>
+  <data name="mLabelEinsatzInformations.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mLabelEinsatzInformations.Text" xml:space="preserve">
+    <value>Einsatzinformation:</value>
+  </data>
+  <data name="&gt;&gt;mLabelEinsatzInformations.Name" xml:space="preserve">
+    <value>mLabelEinsatzInformations</value>
+  </data>
+  <data name="&gt;&gt;mLabelEinsatzInformations.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelEinsatzInformations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelEinsatzInformations.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mLabelTitleEinsatzOrt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLabelTitleEinsatzOrt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelTitleEinsatzOrt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelTitleEinsatzOrt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 108</value>
+  </data>
+  <data name="mLabelTitleEinsatzOrt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 18</value>
+  </data>
+  <data name="mLabelTitleEinsatzOrt.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="mLabelTitleEinsatzOrt.Text" xml:space="preserve">
+    <value>Einsatzort: </value>
+  </data>
+  <data name="&gt;&gt;mLabelTitleEinsatzOrt.Name" xml:space="preserve">
+    <value>mLabelTitleEinsatzOrt</value>
+  </data>
+  <data name="&gt;&gt;mLabelTitleEinsatzOrt.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelTitleEinsatzOrt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelTitleEinsatzOrt.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mLabelTitelEinsatzStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLabelTitelEinsatzStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelTitelEinsatzStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelTitelEinsatzStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 131</value>
+  </data>
+  <data name="mLabelTitelEinsatzStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 18</value>
+  </data>
+  <data name="mLabelTitelEinsatzStart.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLabelTitelEinsatzStart.Text" xml:space="preserve">
+    <value>Einsatzstart:</value>
+  </data>
+  <data name="&gt;&gt;mLabelTitelEinsatzStart.Name" xml:space="preserve">
+    <value>mLabelTitelEinsatzStart</value>
+  </data>
+  <data name="&gt;&gt;mLabelTitelEinsatzStart.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelTitelEinsatzStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelTitelEinsatzStart.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mLabelValueEinsatzOrt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLabelValueEinsatzOrt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelValueEinsatzOrt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelValueEinsatzOrt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 108</value>
+  </data>
+  <data name="mLabelValueEinsatzOrt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 18</value>
+  </data>
+  <data name="mLabelValueEinsatzOrt.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mLabelValueEinsatzOrt.Text" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzOrt.Name" xml:space="preserve">
+    <value>mLabelValueEinsatzOrt</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzOrt.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzOrt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzOrt.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mLabelValueEinsatzStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLabelValueEinsatzStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelValueEinsatzStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelValueEinsatzStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 131</value>
+  </data>
+  <data name="mLabelValueEinsatzStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 18</value>
+  </data>
+  <data name="mLabelValueEinsatzStart.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mLabelValueEinsatzStart.Text" xml:space="preserve">
+    <value>00.00.2017 00:00</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzStart.Name" xml:space="preserve">
+    <value>mLabelValueEinsatzStart</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzStart.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzStart.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mLabelValueProtocolLeader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLabelValueProtocolLeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelValueProtocolLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelValueProtocolLeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 155</value>
+  </data>
+  <data name="mLabelValueProtocolLeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 18</value>
+  </data>
+  <data name="mLabelValueProtocolLeader.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mLabelValueProtocolLeader.Text" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueProtocolLeader.Name" xml:space="preserve">
+    <value>mLabelValueProtocolLeader</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueProtocolLeader.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueProtocolLeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueProtocolLeader.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mLabelProtocolLeader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLabelProtocolLeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelProtocolLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelProtocolLeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 155</value>
+  </data>
+  <data name="mLabelProtocolLeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 18</value>
+  </data>
+  <data name="mLabelProtocolLeader.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="mLabelProtocolLeader.Text" xml:space="preserve">
+    <value>Protokollführer: </value>
+  </data>
+  <data name="&gt;&gt;mLabelProtocolLeader.Name" xml:space="preserve">
+    <value>mLabelProtocolLeader</value>
+  </data>
+  <data name="&gt;&gt;mLabelProtocolLeader.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelProtocolLeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelProtocolLeader.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mLabelValueEinsatzLeader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLabelValueEinsatzLeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelValueEinsatzLeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelValueEinsatzLeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 182</value>
+  </data>
+  <data name="mLabelValueEinsatzLeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 18</value>
+  </data>
+  <data name="mLabelValueEinsatzLeader.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="mLabelValueEinsatzLeader.Text" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzLeader.Name" xml:space="preserve">
+    <value>mLabelValueEinsatzLeader</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzLeader.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzLeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelValueEinsatzLeader.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="materialLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 182</value>
+  </data>
+  <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 18</value>
+  </data>
+  <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="materialLabel4.Text" xml:space="preserve">
+    <value>Einsatzleiter: </value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
+    <value>materialLabel4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mLabelEinsatzdauer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="mLabelEinsatzdauer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mLabelEinsatzdauer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>755, 33</value>
+  </data>
+  <data name="mLabelEinsatzdauer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 26</value>
+  </data>
+  <data name="mLabelEinsatzdauer.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="mLabelEinsatzdauer.Text" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="&gt;&gt;mLabelEinsatzdauer.Name" xml:space="preserve">
+    <value>mLabelEinsatzdauer</value>
+  </data>
+  <data name="&gt;&gt;mLabelEinsatzdauer.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mLabelEinsatzdauer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mLabelEinsatzdauer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="containerClassAtemschutz1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="containerClassAtemschutz1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="containerClassAtemschutz1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1080, 499</value>
+  </data>
+  <data name="containerClassAtemschutz1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz1.Name" xml:space="preserve">
+    <value>containerClassAtemschutz1</value>
+  </data>
+  <data name="&gt;&gt;containerClassAtemschutz1.Type" xml:space="preserve">
+    <value>einsatzLeitSoftware.containerClassAtemschutz, einsatzLeitSoftware, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>68</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1732, 864</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Einsatzleitsoftware FFW Oberfell</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderId.Name" xml:space="preserve">
+    <value>mColumnHeaderId</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderDate.Name" xml:space="preserve">
+    <value>mColumnHeaderDate</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderTime.Name" xml:space="preserve">
+    <value>mColumnHeaderTime</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderTimer.Name" xml:space="preserve">
+    <value>mColumnHeaderTimer</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderFunkFrom.Name" xml:space="preserve">
+    <value>mColumnHeaderFunkFrom</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderFunkFrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderFunkTo.Name" xml:space="preserve">
+    <value>mColumnHeaderFunkTo</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderFunkTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderText.Name" xml:space="preserve">
+    <value>mColumnHeaderText</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderPrio.Name" xml:space="preserve">
+    <value>mColumnHeaderPrio</value>
+  </data>
+  <data name="&gt;&gt;mColumnHeaderPrio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
