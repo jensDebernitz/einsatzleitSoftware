@@ -44,19 +44,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="atemSchutzGeneralDialog.cs" />
+    <Compile Include="atemSchutzGeneralDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="atemSchutzGeneralDialog.designer.cs">
       <DependentUpon>atemSchutzGeneralDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="beginDialog.cs" />
+    <Compile Include="beginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="beginDialog.designer.cs">
       <DependentUpon>beginDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="containerClassAtemschutz.cs" />
+    <Compile Include="containerClassAtemschutz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="containerClassAtemschutz.designer.cs">
       <DependentUpon>containerClassAtemschutz.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
