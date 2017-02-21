@@ -51,11 +51,32 @@ namespace einsatzLeitSoftware
             mTruppMann.name = "";
             mTruppMann.fillPressure = START_PRESSURE;
 
+            button1.Enabled = false;
+
             mSicherungsTruppFuehrer.name = "";
             mSicherungsTruppFuehrer.fillPressure = START_PRESSURE;
 
             mSicherungsTruppMann.name = "";
             mSicherungsTruppMann.fillPressure = START_PRESSURE;
+
+            // Set the view to show details.
+            materialListView1.View = View.Details;
+            // Allow the user to edit item text.
+            materialListView1.LabelEdit = false;
+            materialListView1.LabelWrap = true;
+            // Allow the user to rearrange columns.
+            materialListView1.AllowColumnReorder = true;
+            // Select the item and subitems when selection is made.
+            materialListView1.FullRowSelect = false;
+            // Display grid lines.
+            materialListView1.GridLines = true;
+
+            // Create columns for the items and subitems.
+            materialListView1.Columns.Add("ID", 50, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Datum", 140, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Uhrzeit", 100, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Einsatzzeit", 100, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Text", 600, HorizontalAlignment.Left);
 
             timer1.Interval = TIMER_INTERVAL;
 
@@ -98,6 +119,8 @@ namespace einsatzLeitSoftware
                     addProtocolEntry(AtemSchutz.change);
                 }
             }
+
+            checkStartButtonToEnabled();
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
@@ -121,6 +144,8 @@ namespace einsatzLeitSoftware
                 mLabelValueBottleFielPressureSicherungsTruppFuehrer.ForeColor = getFillPressureColor(dialog.getFillPressureTruppFuehrer());
                 mLabelValueBottleFielPressureSicherungsTruppMann.ForeColor = getFillPressureColor(dialog.getFillPressureTruppMann());
             }
+
+            checkStartButtonToEnabled();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -178,39 +203,55 @@ namespace einsatzLeitSoftware
         private void addProtocolEntry(AtemSchutz state)
         {
             Misc.timeHelper helper = new Misc.timeHelper();
-           
-            string changes = String.Empty;
 
+            string[] changes = new string[5];
+            int i = 3;
 
             switch (state)
             {
                 case AtemSchutz.start:
-                    changes = "Atemschutz Überwachung gestartet mit" + System.Environment.NewLine;
-                    changes += "Truppführer " + mTruppFuehrer.name + "Falschendruck " + mTruppFuehrer.fillPressure + System.Environment.NewLine;
-                    changes += "Truppmann   " + mTruppMann.name + "Falschendruck " + mTruppMann.fillPressure + System.Environment.NewLine;
-                    changes += "Sicherungs Truppführer " + mSicherungsTruppFuehrer.name + "Falschendruck " + mSicherungsTruppFuehrer.fillPressure + System.Environment.NewLine;
-                    changes += "Sicherungs Truppmann " +  mSicherungsTruppMann.name + "Falschendruck " + mSicherungsTruppMann.fillPressure;
+                    changes[0] = "Atemschutz Überwachung gestartet mit";
+                    changes[1] = "Truppführer " + mTruppFuehrer.name + "Falschendruck " + mTruppFuehrer.fillPressure;
+                    changes[2] = "Truppmann   " + mTruppMann.name + "Falschendruck " + mTruppMann.fillPressure;
+                    changes[3] = "Sicherungs Truppführer " + mSicherungsTruppFuehrer.name + "Falschendruck " + mSicherungsTruppFuehrer.fillPressure;
+                    changes[4] = "Sicherungs Truppmann " + mSicherungsTruppMann.name + "Falschendruck " + mSicherungsTruppMann.fillPressure;
+                    i = 5;
                     break;
                 case AtemSchutz.change:
-                    changes = "Atemschutz Überwachung Flaschenfüllstand kontrolle" + System.Environment.NewLine;
-                    changes += "Truppführer " + mTruppFuehrer.name + "Falschendruck " + mTruppFuehrer.fillPressure + System.Environment.NewLine;
-                    changes += "Truppmann " +  mTruppMann.name + "Falschendruck " + mTruppMann.fillPressure;
+                    changes[0] = "Atemschutz Überwachung Flaschenfüllstand kontrolle";
+                    changes[1] = "Truppführer " + mTruppFuehrer.name + "Falschendruck " + mTruppFuehrer.fillPressure;
+                    changes[2] = "Truppmann " + mTruppMann.name + "Falschendruck " + mTruppMann.fillPressure;
                     break;
                 case AtemSchutz.end:
-                    changes = "Atemschutz Überwachung beendet mit " + System.Environment.NewLine;
-                    changes += "Truppführer " + mTruppFuehrer.name + "Falschendruck " + mTruppFuehrer.fillPressure + System.Environment.NewLine;
-                    changes += "Truppmann " +  mTruppMann.name + "Falschendruck " + mTruppMann.fillPressure;
+                    changes[0] = "Atemschutz Überwachung beendet mit ";
+                    changes[1] = "Truppführer " + mTruppFuehrer.name + "Falschendruck " + mTruppFuehrer.fillPressure;
+                    changes[2] = "Truppmann " + mTruppMann.name + "Falschendruck " + mTruppMann.fillPressure;
                     break;
             }
 
-            var entry = new[]
+            for (int u = 0; u < i; u++)
             {
-                  new []{ mID.ToString() , mStartTime.ToShortDateString(), mStartTime.ToShortTimeString(), helper.getDiffTime(mStartTime), changes}
-            };
+                if (u == 0)
+                {
+                    var entry = new[]
+                    {
+                        new []{ mID.ToString() , mStartTime.ToShortDateString(), mStartTime.ToShortTimeString(), helper.getDiffTime(mStartTime), changes[u]}
+                    };
+                    fillList(ref materialListView1, entry);
+                }
+                else
+                {
+                    var entry = new[]
+                    {
+                        new []{ String.Empty , String.Empty, String.Empty, String.Empty, changes[u]}
+                    };
+                    fillList(ref materialListView1, entry);
+                }
 
-            materialListView1.View = View.Details;
-            materialListView1.LabelWrap = true;
-            fillList(ref materialListView1, entry);
+            }
+
+            materialListView1.Items[materialListView1.Items.Count - 1].EnsureVisible();
+
             mID++;
         }
 
@@ -224,5 +265,17 @@ namespace einsatzLeitSoftware
             }
 
         }
+
+        private void checkStartButtonToEnabled()
+         {
+             if (mTruppFuehrer.name != String.Empty
+                 && mTruppMann.name != String.Empty
+                 && mSicherungsTruppFuehrer.name != String.Empty
+                 && mSicherungsTruppMann.name != String.Empty)
+             {
+                 button1.Enabled = true;
+             }
+             
+         }
     }
 }

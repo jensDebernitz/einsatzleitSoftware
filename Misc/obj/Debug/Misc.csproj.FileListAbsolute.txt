@@ -5,3 +5,8 @@ C:\git\einsatzleitSoftware\Misc\obj\Debug\Misc.dll
 C:\git\einsatzleitSoftware\Misc\obj\Debug\Misc.pdb
 C:\git\einsatzleitSoftware\Misc\bin\Debug\Misc.dll.CodeAnalysisLog.xml
 C:\git\einsatzleitSoftware\Misc\bin\Debug\Misc.dll.lastcodeanalysissucceeded
+C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\bin\Debug\Misc.dll
+C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\bin\Debug\Misc.pdb
+C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\obj\Debug\Misc.csprojResolveAssemblyReference.cache
+C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\obj\Debug\Misc.dll
+C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\obj\Debug\Misc.pdb

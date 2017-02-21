@@ -79,8 +79,8 @@
             this.mLabelValueEinsatzLeader = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelEinsatzdauer = new MaterialSkin.Controls.MaterialLabel();
-            this.containerClassAtemschutz2 = new einsatzLeitSoftware.containerClassAtemschutz();
             this.containerClassAtemschutz1 = new einsatzLeitSoftware.containerClassAtemschutz();
+            this.containerClassAtemschutz2 = new einsatzLeitSoftware.containerClassAtemschutz();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -388,6 +388,7 @@
             // 
             // materialListView1
             // 
+            this.materialListView1.Activation = System.Windows.Forms.ItemActivation.OneClick;
             this.materialListView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.mColumnHeaderId,
@@ -402,6 +403,7 @@
             resources.ApplyResources(this.materialListView1, "materialListView1");
             this.materialListView1.FullRowSelect = true;
             this.materialListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.materialListView1.HoverSelection = true;
             this.materialListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             ((System.Windows.Forms.ListViewItem)(resources.GetObject("materialListView1.Items")))});
             this.materialListView1.LabelEdit = true;
@@ -608,19 +610,19 @@
             this.mLabelEinsatzdauer.MouseState = MaterialSkin.MouseState.HOVER;
             this.mLabelEinsatzdauer.Name = "mLabelEinsatzdauer";
             // 
-            // containerClassAtemschutz2
-            // 
-            this.containerClassAtemschutz2.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.containerClassAtemschutz2.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.containerClassAtemschutz2, "containerClassAtemschutz2");
-            this.containerClassAtemschutz2.Name = "containerClassAtemschutz2";
-            // 
             // containerClassAtemschutz1
             // 
             this.containerClassAtemschutz1.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.containerClassAtemschutz1.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.containerClassAtemschutz1, "containerClassAtemschutz1");
             this.containerClassAtemschutz1.Name = "containerClassAtemschutz1";
+            // 
+            // containerClassAtemschutz2
+            // 
+            this.containerClassAtemschutz2.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.containerClassAtemschutz2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.containerClassAtemschutz2, "containerClassAtemschutz2");
+            this.containerClassAtemschutz2.Name = "containerClassAtemschutz2";
             // 
             // MainForm
             // 
