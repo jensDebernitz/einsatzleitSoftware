@@ -119,6 +119,12 @@ namespace einsatzLeitSoftware
         private void mTextField_KeyPress(object sender, KeyPressEventArgs e)
         {
             mBeginTypingNewMessage = true;
+
+            if(    e.KeyChar == (char)Keys.Enter
+                || e.KeyChar == (char)Keys.Return)
+            {
+                mButtonSave.PerformClick();
+            }
         }
 
         private void mButtonSearchButton_Click(object sender, EventArgs e)

@@ -60,5 +60,21 @@ namespace einsatzLeitSoftware
             }
         }
 
+        private void mTextField_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            if (e.KeyChar == (char)Keys.Enter
+                || e.KeyChar == (char)Keys.Return)
+            {
+                if (mTextFieldEinsatzOrt.Text != String.Empty
+                     && mTextFieldProtokollLeader.Text != String.Empty
+                     && mTextFieldEinsatzLeader.Text != String.Empty)
+                {
+                    mButtonEinsatzStart.PerformClick();
+                }
+            }
+               
+        }
+
     }
 }
