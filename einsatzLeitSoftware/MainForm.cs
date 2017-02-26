@@ -26,6 +26,7 @@ namespace einsatzLeitSoftware
         DateTime mStartTime;
         bool mBeginTypingNewMessage;
         debug mDebug;
+        int mID;
 
         public MainForm()
         {
@@ -48,15 +49,33 @@ namespace einsatzLeitSoftware
             mDebug = new debug();
             mDebug.debugMaskSet(debug.DebugIds.DEBUG_MAINFORM);
 
-            mDebug.dprintf("MainForm.cs", 62, debug.DebugIds.DEBUG_MAINFORM, "Init Finished"); 
+            mDebug.dprintf("MainForm.cs", 62, debug.DebugIds.DEBUG_MAINFORM, "Init Finished");
 
         }
 
         private void initListView()
         {
-            materialListView1.Sorting = SortOrder.None;
+            // Set the view to show details.
             materialListView1.View = View.Details;
-            SuspendLayout();
+            // Allow the user to edit item text.
+            materialListView1.LabelEdit = false;
+            materialListView1.LabelWrap = true;
+            // Allow the user to rearrange columns.
+            materialListView1.AllowColumnReorder = true;
+            // Select the item and subitems when selection is made.
+            materialListView1.FullRowSelect = false;
+            // Display grid lines.
+            materialListView1.GridLines = true;
+
+            // Create columns for the items and subitems.
+            materialListView1.Columns.Add("ID", 50, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Datum", 140, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Uhrzeit", 100, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Einsatzzeit", 100, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Von", 140, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Nach", 140, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Text", 550, HorizontalAlignment.Left);
+            materialListView1.Columns.Add("Prio", 75, HorizontalAlignment.Left);
         }
 
         private void Form1_Load(object sender, EventArgs e)

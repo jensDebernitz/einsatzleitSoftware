@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(beginDialog));
             this.mLabelTitleEinsatzOrt = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelTitleEinsatzstart = new MaterialSkin.Controls.MaterialLabel();
             this.mTextFieldEinsatzOrt = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -203,6 +204,7 @@
             this.Controls.Add(this.mTextFieldEinsatzOrt);
             this.Controls.Add(this.mLabelTitleEinsatzstart);
             this.Controls.Add(this.mLabelTitleEinsatzOrt);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "beginDialog";
             this.Text = "Bitte gebe die Grunddaten ein...";

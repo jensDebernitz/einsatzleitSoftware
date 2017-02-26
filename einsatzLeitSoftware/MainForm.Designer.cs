@@ -52,14 +52,6 @@
             this.mTextFieldDate = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.mTextFieldID = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialListView1 = new MaterialSkin.Controls.MaterialListView();
-            this.mColumnHeaderId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.mColumnHeaderDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.mColumnHeaderTime = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.mColumnHeaderTimer = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.mColumnHeaderFunkFrom = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.mColumnHeaderFunkTo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.mColumnHeaderText = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.mColumnHeaderPrio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mTabPageAtemSchutzUeberwachung = new System.Windows.Forms.TabPage();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.mTabControlAtemSchutz = new MaterialSkin.Controls.MaterialTabControl();
@@ -69,7 +61,6 @@
             this.mTabPageExport = new System.Windows.Forms.TabPage();
             this.mTabSelector = new MaterialSkin.Controls.MaterialTabSelector();
             this.mLabelClock = new MaterialSkin.Controls.MaterialLabel();
-            this.mLabelEinsatzInformations = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelTitleEinsatzOrt = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelTitelEinsatzStart = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelValueEinsatzOrt = new MaterialSkin.Controls.MaterialLabel();
@@ -79,8 +70,9 @@
             this.mLabelValueEinsatzLeader = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.mLabelEinsatzdauer = new MaterialSkin.Controls.MaterialLabel();
-            this.containerClassAtemschutz1 = new einsatzLeitSoftware.containerClassAtemschutz();
+            this.mGroupBoxEinsatzInformation = new System.Windows.Forms.GroupBox();
             this.containerClassAtemschutz2 = new einsatzLeitSoftware.containerClassAtemschutz();
+            this.containerClassAtemschutz1 = new einsatzLeitSoftware.containerClassAtemschutz();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -91,6 +83,7 @@
             this.mTabControlAtemSchutz.SuspendLayout();
             this.tabPageAtemschutz1.SuspendLayout();
             this.mTabPageMaps.SuspendLayout();
+            this.mGroupBoxEinsatzInformation.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -390,15 +383,6 @@
             // 
             this.materialListView1.Activation = System.Windows.Forms.ItemActivation.OneClick;
             this.materialListView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.mColumnHeaderId,
-            this.mColumnHeaderDate,
-            this.mColumnHeaderTime,
-            this.mColumnHeaderTimer,
-            this.mColumnHeaderFunkFrom,
-            this.mColumnHeaderFunkTo,
-            this.mColumnHeaderText,
-            this.mColumnHeaderPrio});
             this.materialListView1.Depth = 0;
             resources.ApplyResources(this.materialListView1, "materialListView1");
             this.materialListView1.FullRowSelect = true;
@@ -413,38 +397,6 @@
             this.materialListView1.OwnerDraw = true;
             this.materialListView1.UseCompatibleStateImageBehavior = false;
             this.materialListView1.View = System.Windows.Forms.View.List;
-            // 
-            // mColumnHeaderId
-            // 
-            resources.ApplyResources(this.mColumnHeaderId, "mColumnHeaderId");
-            // 
-            // mColumnHeaderDate
-            // 
-            resources.ApplyResources(this.mColumnHeaderDate, "mColumnHeaderDate");
-            // 
-            // mColumnHeaderTime
-            // 
-            resources.ApplyResources(this.mColumnHeaderTime, "mColumnHeaderTime");
-            // 
-            // mColumnHeaderTimer
-            // 
-            resources.ApplyResources(this.mColumnHeaderTimer, "mColumnHeaderTimer");
-            // 
-            // mColumnHeaderFunkFrom
-            // 
-            resources.ApplyResources(this.mColumnHeaderFunkFrom, "mColumnHeaderFunkFrom");
-            // 
-            // mColumnHeaderFunkTo
-            // 
-            resources.ApplyResources(this.mColumnHeaderFunkTo, "mColumnHeaderFunkTo");
-            // 
-            // mColumnHeaderText
-            // 
-            resources.ApplyResources(this.mColumnHeaderText, "mColumnHeaderText");
-            // 
-            // mColumnHeaderPrio
-            // 
-            resources.ApplyResources(this.mColumnHeaderPrio, "mColumnHeaderPrio");
             // 
             // mTabPageAtemSchutzUeberwachung
             // 
@@ -520,15 +472,6 @@
             this.mLabelClock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.mLabelClock.MouseState = MaterialSkin.MouseState.HOVER;
             this.mLabelClock.Name = "mLabelClock";
-            // 
-            // mLabelEinsatzInformations
-            // 
-            resources.ApplyResources(this.mLabelEinsatzInformations, "mLabelEinsatzInformations");
-            this.mLabelEinsatzInformations.BackColor = System.Drawing.Color.White;
-            this.mLabelEinsatzInformations.Depth = 0;
-            this.mLabelEinsatzInformations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.mLabelEinsatzInformations.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mLabelEinsatzInformations.Name = "mLabelEinsatzInformations";
             // 
             // mLabelTitleEinsatzOrt
             // 
@@ -610,12 +553,20 @@
             this.mLabelEinsatzdauer.MouseState = MaterialSkin.MouseState.HOVER;
             this.mLabelEinsatzdauer.Name = "mLabelEinsatzdauer";
             // 
-            // containerClassAtemschutz1
+            // mGroupBoxEinsatzInformation
             // 
-            this.containerClassAtemschutz1.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.containerClassAtemschutz1.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.containerClassAtemschutz1, "containerClassAtemschutz1");
-            this.containerClassAtemschutz1.Name = "containerClassAtemschutz1";
+            this.mGroupBoxEinsatzInformation.BackColor = System.Drawing.Color.White;
+            this.mGroupBoxEinsatzInformation.Controls.Add(this.mLabelValueEinsatzLeader);
+            this.mGroupBoxEinsatzInformation.Controls.Add(this.materialLabel4);
+            this.mGroupBoxEinsatzInformation.Controls.Add(this.mLabelValueProtocolLeader);
+            this.mGroupBoxEinsatzInformation.Controls.Add(this.mLabelProtocolLeader);
+            this.mGroupBoxEinsatzInformation.Controls.Add(this.mLabelValueEinsatzStart);
+            this.mGroupBoxEinsatzInformation.Controls.Add(this.mLabelValueEinsatzOrt);
+            this.mGroupBoxEinsatzInformation.Controls.Add(this.mLabelTitelEinsatzStart);
+            this.mGroupBoxEinsatzInformation.Controls.Add(this.mLabelTitleEinsatzOrt);
+            resources.ApplyResources(this.mGroupBoxEinsatzInformation, "mGroupBoxEinsatzInformation");
+            this.mGroupBoxEinsatzInformation.Name = "mGroupBoxEinsatzInformation";
+            this.mGroupBoxEinsatzInformation.TabStop = false;
             // 
             // containerClassAtemschutz2
             // 
@@ -624,20 +575,19 @@
             resources.ApplyResources(this.containerClassAtemschutz2, "containerClassAtemschutz2");
             this.containerClassAtemschutz2.Name = "containerClassAtemschutz2";
             // 
+            // containerClassAtemschutz1
+            // 
+            this.containerClassAtemschutz1.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.containerClassAtemschutz1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.containerClassAtemschutz1, "containerClassAtemschutz1");
+            this.containerClassAtemschutz1.Name = "containerClassAtemschutz1";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.mGroupBoxEinsatzInformation);
             this.Controls.Add(this.mLabelEinsatzdauer);
-            this.Controls.Add(this.mLabelValueEinsatzLeader);
-            this.Controls.Add(this.materialLabel4);
-            this.Controls.Add(this.mLabelValueProtocolLeader);
-            this.Controls.Add(this.mLabelProtocolLeader);
-            this.Controls.Add(this.mLabelValueEinsatzStart);
-            this.Controls.Add(this.mLabelValueEinsatzOrt);
-            this.Controls.Add(this.mLabelTitelEinsatzStart);
-            this.Controls.Add(this.mLabelTitleEinsatzOrt);
-            this.Controls.Add(this.mLabelEinsatzInformations);
             this.Controls.Add(this.mLabelClock);
             this.Controls.Add(this.mTabSelector);
             this.Controls.Add(this.mTabControlMaps);
@@ -658,8 +608,9 @@
             this.mTabControlAtemSchutz.ResumeLayout(false);
             this.tabPageAtemschutz1.ResumeLayout(false);
             this.mTabPageMaps.ResumeLayout(false);
+            this.mGroupBoxEinsatzInformation.ResumeLayout(false);
+            this.mGroupBoxEinsatzInformation.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -670,7 +621,6 @@
         private System.Windows.Forms.TabPage mTabPageAtemSchutzUeberwachung;
         private MaterialSkin.Controls.MaterialTabSelector mTabSelector;
         private MaterialSkin.Controls.MaterialLabel mLabelClock;
-        private MaterialSkin.Controls.MaterialLabel mLabelEinsatzInformations;
         private MaterialSkin.Controls.MaterialLabel mLabelTitleEinsatzOrt;
         private MaterialSkin.Controls.MaterialLabel mLabelTitelEinsatzStart;
         private MaterialSkin.Controls.MaterialLabel mLabelValueEinsatzOrt;
@@ -690,14 +640,6 @@
         private MaterialSkin.Controls.MaterialSingleLineTextField mTextFieldDate;
         private MaterialSkin.Controls.MaterialSingleLineTextField mTextFieldID;
         private MaterialSkin.Controls.MaterialListView materialListView1;
-        private System.Windows.Forms.ColumnHeader mColumnHeaderId;
-        private System.Windows.Forms.ColumnHeader mColumnHeaderDate;
-        private System.Windows.Forms.ColumnHeader mColumnHeaderTime;
-        private System.Windows.Forms.ColumnHeader mColumnHeaderTimer;
-        private System.Windows.Forms.ColumnHeader mColumnHeaderFunkFrom;
-        private System.Windows.Forms.ColumnHeader mColumnHeaderFunkTo;
-        private System.Windows.Forms.ColumnHeader mColumnHeaderText;
-        private System.Windows.Forms.ColumnHeader mColumnHeaderPrio;
         private System.Windows.Forms.TabPage mTabPageMaps;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private MaterialSkin.Controls.MaterialSingleLineTextField mTextFieldZip;
@@ -717,6 +659,7 @@
         private System.Windows.Forms.TabPage tabPageAtemschutz1;
         private containerClassAtemschutz containerClassAtemschutz1;
         private containerClassAtemschutz containerClassAtemschutz2;
+        private System.Windows.Forms.GroupBox mGroupBoxEinsatzInformation;
     }
 }
 
