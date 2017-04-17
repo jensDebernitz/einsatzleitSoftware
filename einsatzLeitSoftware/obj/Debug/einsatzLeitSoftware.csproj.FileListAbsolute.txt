@@ -1,0 +1,16 @@
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\bin\Debug\einsatzLeitSoftware.exe.config
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\bin\Debug\einsatzLeitSoftware.exe
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\bin\Debug\einsatzLeitSoftware.pdb
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\bin\Debug\MaterialSkin.dll
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\bin\Debug\Misc.dll
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\bin\Debug\MaterialSkin.pdb
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\bin\Debug\Misc.pdb
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.csprojResolveAssemblyReference.cache
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.atemSchutzGeneralDialog.resources
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.beginDialog.resources
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.containerClassAtemschutz.resources
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.MainForm.resources
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.Properties.Resources.resources
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.csproj.GenerateResource.Cache
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.exe
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\einsatzLeitSoftware\obj\Debug\einsatzLeitSoftware.pdb

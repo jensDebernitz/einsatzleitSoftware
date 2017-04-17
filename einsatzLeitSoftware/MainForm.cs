@@ -50,7 +50,27 @@ namespace einsatzLeitSoftware
             mDebug.debugMaskSet(debug.DebugIds.DEBUG_MAINFORM);
 
             mDebug.dprintf("MainForm.cs", 62, debug.DebugIds.DEBUG_MAINFORM, "Init Finished");
+            addedAutoCompleteValuesToTextBoxes();
 
+        }
+
+        private void addedAutoCompleteValuesToTextBoxes()
+        {
+            AutoCompleteStringCollection sources = new AutoCompleteStringCollection();
+
+            if(File.Exists(@"c:\EinsatzLeitSoftwareSteuerung\funkRufNamen.txt"))
+            {
+                string[] temp = File.ReadAllLines(@"c:\EinsatzLeitSoftwareSteuerung\funkRufNamen.txt");
+                sources.AddRange(temp);
+            }
+
+            mTextFieldFunkFrom.AutoCompleteCustomSource = sources;
+            mTextFieldFunkFrom.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            mTextFieldFunkFrom.AutoCompleteSource = AutoCompleteSource.CustomSource;
+
+            mTextFieldFunkTo.AutoCompleteCustomSource = sources;
+            mTextFieldFunkTo.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            mTextFieldFunkTo.AutoCompleteSource = AutoCompleteSource.CustomSource;
         }
 
         private void initListView()
@@ -194,6 +214,21 @@ namespace einsatzLeitSoftware
             newContainer.setContainerNumber(mTabControlAtemSchutz.TabCount + 1);
             myTabPage.Controls.Add(newContainer);
             mTabControlAtemSchutz.TabPages.Add(myTabPage);
+        }
+
+        private void materialListView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mTextFieldFunkFrom_Enter(object sender, EventArgs e)
+        {
+            mTextFieldFunkFrom.Clear();
+        }
+
+        private void mTextFieldFunkTo_Enter(object sender, EventArgs e)
+        {
+            mTextFieldFunkTo.Clear();
         }
     }
 }

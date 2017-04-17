@@ -12,3 +12,10 @@ C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\MaterialSki
 C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
 C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.dll
 C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.pdb
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\MaterialSkin\bin\Debug\MaterialSkin.dll
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\MaterialSkin\bin\Debug\MaterialSkin.pdb
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.dll
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.pdb
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\MaterialSkin\obj\Debug\MaterialSkin.csprojResolveAssemblyReference.cache

@@ -20,7 +20,7 @@ namespace MaterialSkin.Controls
         public override string Text { get { return baseTextBox.Text; } set { baseTextBox.Text = value; } }
         public new object Tag { get { return baseTextBox.Tag; } set { baseTextBox.Tag = value; } }
         public new int MaxLength { get { return baseTextBox.MaxLength; } set { baseTextBox.MaxLength = value; } }
-        
+
         public string SelectedText { get { return baseTextBox.SelectedText; } set { baseTextBox.SelectedText = value; } }
         public string Hint { get { return baseTextBox.Hint; } set { baseTextBox.Hint = value; } }
 
@@ -34,9 +34,13 @@ namespace MaterialSkin.Controls
         public void SelectAll() { baseTextBox.SelectAll(); }
         public void Clear() { baseTextBox.Clear(); }
         public void Focus() { baseTextBox.Focus(); }
+        public AutoCompleteMode AutoCompleteMode { get { return baseTextBox.AutoCompleteMode; } set { baseTextBox.AutoCompleteMode = value; } }
+        public AutoCompleteSource AutoCompleteSource { get { return baseTextBox.AutoCompleteSource; } set { baseTextBox.AutoCompleteSource = value; } }
+        public AutoCompleteStringCollection AutoCompleteCustomSource { get { return baseTextBox.AutoCompleteCustomSource; } set { baseTextBox.AutoCompleteCustomSource = value; } }
 
 
-        # region Forwarding events to baseTextBox
+
+        #region Forwarding events to baseTextBox
         public event EventHandler AcceptsTabChanged
         {
             add
@@ -1104,7 +1108,7 @@ namespace MaterialSkin.Controls
                 MaterialContextMenuStrip cms = new TextBoxContextMenuStrip();
                 cms.Opening += ContextMenuStripOnOpening;
                 cms.OnItemClickStart += ContextMenuStripOnItemClickStart;
-
+                
                 ContextMenuStrip = cms;
             }
 

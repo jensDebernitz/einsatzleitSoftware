@@ -10,3 +10,8 @@ C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\bin\De
 C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\obj\Debug\Misc.csprojResolveAssemblyReference.cache
 C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\obj\Debug\Misc.dll
 C:\Users\jensd_000\Documents\einsatzleitSoftware\einsatzleitSoftware\Misc\obj\Debug\Misc.pdb
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\Misc\bin\Debug\Misc.dll
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\Misc\bin\Debug\Misc.pdb
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\Misc\obj\Debug\Misc.csprojResolveAssemblyReference.cache
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\Misc\obj\Debug\Misc.dll
+C:\Users\Jens.Debernitz\Source\Repos\einsatzleitSoftware\Misc\obj\Debug\Misc.pdb
